@@ -1,0 +1,301 @@
+﻿Gender,Activity begin time,Activity Name,Physical Intensity,Mental Intensity,Health Score,Activity end time,total time
+F,3,Meditation,Low,High,65,3.9,0.9
+M,8,Sleep Prep Routine,Low,Low,68,8.7,0.7
+M,1,Gaming,Low,Medium,71,1.7,0.7
+F,18,Reading,Low,High,64,19.7,1.7
+F,4,Post-Lunch Walk,Low,Low,52,4.9,0.9
+F,22,Yoga,Medium,Medium,77,23.6,1.6
+M,17,Sleep Prep Routine,Low,Low,59,17.8,0.8
+F,17,Gaming,Low,Medium,74,17.7,0.7
+M,17,Gaming,Low,Medium,61,17.6,0.6
+F,4,Office Work,Low,High,76,6.3,2.3
+F,20,Cooking,Medium,Medium,60,21.9,1.9
+F,7,Morning Run,High,Medium,75,8.6,1.6
+M,6,Gym Workout,High,Medium,74,7.5,1.5
+F,8,Coding Session,Low,High,79,11.7,3.7
+M,12,Gaming,Low,Medium,59,12.6,0.6
+F,9,Gym Workout,High,Medium,69,10.4,1.4
+F,6,Hiking,High,Medium,66,10,4
+F,10,Coding Session,Low,High,64,12.6,2.6
+M,0,Hiking,High,Medium,81,3.4,3.4
+M,21,Gaming,Low,Medium,66,21.6,0.6
+F,20,Cooking,Medium,Medium,75,21.6,1.6
+F,2,Post-Lunch Walk,Low,Low,61,2.7,0.7
+F,10,Team Meeting,Low,High,64,11.2,1.2
+F,9,Cooking,Medium,Medium,69,10,1
+F,1,Gaming,Low,Medium,64,1.7,0.7
+M,18,Hiking,High,Medium,68,20.4,2.4
+M,16,Post-Lunch Walk,Low,Low,65,16.9,0.9
+F,6,Team Meeting,Low,High,68,7.1,1.1
+F,18,Sleep Prep Routine,Low,Low,52,18.8,0.8
+M,22,Post-Lunch Walk,Low,Low,60,22.7,0.7
+M,12,Morning Run,High,Medium,81,13.1,1.1
+F,17,Sleep Prep Routine,Low,Low,53,17.9,0.9
+F,16,Cooking,Medium,Medium,60,17.6,1.6
+M,14,Meditation,Low,High,67,14.5,0.5
+M,5,Post-Lunch Walk,Low,Low,60,5.5,0.5
+M,21,Gym Workout,High,Medium,83,22.5,1.5
+M,17,Sleep Prep Routine,Low,Low,68,17.5,0.5
+M,0,Post-Lunch Walk,Low,Low,55,0.7,0.7
+F,10,Morning Run,High,Medium,72,12,2
+M,11,Team Meeting,Low,High,67,12.5,1.5
+F,19,Hiking,High,Medium,76,22.4,3.4
+M,19,Post-Lunch Walk,Low,Low,68,20,1
+F,2,Team Meeting,Low,High,70,3.5,1.5
+F,17,Gaming,Low,Medium,68,17.9,0.9
+F,14,Family Time,Low,High,66,15.1,1.1
+F,13,Sleep Prep Routine,Low,Low,65,13.9,0.9
+F,8,Team Meeting,Low,High,68,9.3,1.3
+M,4,Commute Home,Medium,Low,61,5.2,1.2
+M,19,Meditation,Low,High,64,19.9,0.9
+M,17,Cooking,Medium,Medium,74,18.1,1.1
+M,14,Commute Home,Medium,Low,66,15.2,1.2
+F,8,Sleep Prep Routine,Low,Low,68,8.8,0.8
+F,18,Gaming,Low,Medium,59,18.8,0.8
+M,12,Gym Workout,High,Medium,83,13.7,1.7
+M,16,Reading,Low,High,79,17.3,1.3
+F,5,Sleep Prep Routine,Low,Low,56,5.7,0.7
+M,2,Cooking,Medium,Medium,66,3,1
+F,23,Team Meeting,Low,High,76,24,1
+M,12,Yoga,Medium,Medium,60,13.6,1.6
+M,14,Gaming,Low,Medium,65,14.7,0.7
+F,21,Cooking,Medium,Medium,69,22.2,1.2
+M,5,Gym Workout,High,Medium,67,6,1
+F,1,Office Work,Low,High,62,4.3,3.3
+M,15,Team Meeting,Low,High,62,16.5,1.5
+M,12,Yoga,Medium,Medium,60,13.4,1.4
+M,10,Office Work,Low,High,71,12.6,2.6
+M,1,Family Time,Low,High,65,2.6,1.6
+M,3,Hiking,High,Medium,70,5.5,2.5
+F,3,Office Work,Low,High,70,5.3,2.3
+F,23,Coding Session,Low,High,63,24,1
+F,14,Reading,Low,High,74,15.4,1.4
+F,9,Office Work,Low,High,77,11.3,2.3
+F,16,Team Meeting,Low,High,61,17.4,1.4
+M,21,Gaming,Low,Medium,64,21.7,0.7
+F,14,Morning Run,High,Medium,83,15.4,1.4
+F,11,Team Meeting,Low,High,71,12.2,1.2
+F,20,Gym Workout,High,Medium,79,21.9,1.9
+M,15,Team Meeting,Low,High,75,16.9,1.9
+F,22,Post-Lunch Walk,Low,Low,60,22.7,0.7
+F,23,Yoga,Medium,Medium,79,24,1
+F,2,Gaming,Low,Medium,67,2.5,0.5
+F,15,Reading,Low,High,65,16.9,1.9
+M,8,Sleep Prep Routine,Low,Low,52,8.6,0.6
+F,11,Gym Workout,High,Medium,69,12.1,1.1
+F,7,Yoga,Medium,Medium,79,8.5,1.5
+F,14,Gym Workout,High,Medium,81,15.2,1.2
+M,14,Cooking,Medium,Medium,63,15.7,1.7
+F,1,Meditation,Low,High,60,1.5,0.5
+F,17,Sleep Prep Routine,Low,Low,69,17.5,0.5
+F,14,Family Time,Low,High,64,15.5,1.5
+F,17,Team Meeting,Low,High,79,18.1,1.1
+F,17,Gaming,Low,Medium,62,17.9,0.9
+F,16,Office Work,Low,High,70,18.3,2.3
+M,13,Post-Lunch Walk,Low,Low,63,13.9,0.9
+M,9,Commute Home,Medium,Low,57,10.2,1.2
+M,3,Hiking,High,Medium,85,6.3,3.3
+M,18,Gym Workout,High,Medium,82,19.5,1.5
+F,13,Family Time,Low,High,75,15,2
+M,20,Office Work,Low,High,69,22.6,2.6
+M,0,Reading,Low,High,65,1.4,1.4
+M,16,Yoga,Medium,Medium,71,17.5,1.5
+M,14,Morning Run,High,Medium,69,15.9,1.9
+F,17,Office Work,Low,High,71,20.6,3.6
+M,20,Hiking,High,Medium,80,22.1,2.1
+M,6,Hiking,High,Medium,79,9.6,3.6
+F,22,Gym Workout,High,Medium,71,23.9,1.9
+M,19,Gym Workout,High,Medium,67,20.9,1.9
+M,8,Family Time,Low,High,61,9.6,1.6
+F,9,Sleep Prep Routine,Low,Low,52,9.7,0.7
+F,12,Family Time,Low,High,65,13.7,1.7
+F,8,Gaming,Low,Medium,62,8.6,0.6
+M,9,Team Meeting,Low,High,64,10.2,1.2
+F,15,Family Time,Low,High,67,16.6,1.6
+F,15,Meditation,Low,High,74,15.9,0.9
+F,23,Office Work,Low,High,64,24,1
+M,13,Sleep Prep Routine,Low,Low,65,13.7,0.7
+M,0,Reading,Low,High,79,1.1,1.1
+F,15,Reading,Low,High,79,16.2,1.2
+F,8,Hiking,High,Medium,74,11,3
+M,13,Gaming,Low,Medium,55,13.7,0.7
+M,4,Office Work,Low,High,76,6.7,2.7
+M,3,Gym Workout,High,Medium,70,4.9,1.9
+F,10,Morning Run,High,Medium,67,11.5,1.5
+M,1,Meditation,Low,High,68,1.8,0.8
+M,18,Sleep Prep Routine,Low,Low,55,18.8,0.8
+M,16,Sleep Prep Routine,Low,Low,64,17,1
+M,7,Office Work,Low,High,72,9.5,2.5
+M,4,Gym Workout,High,Medium,74,5.9,1.9
+F,20,Reading,Low,High,67,21.1,1.1
+F,9,Gaming,Low,Medium,73,10,1
+M,9,Sleep Prep Routine,Low,Low,69,9.5,0.5
+M,3,Sleep Prep Routine,Low,Low,52,4,1
+F,5,Morning Run,High,Medium,79,6.6,1.6
+F,21,Post-Lunch Walk,Low,Low,62,21.7,0.7
+F,6,Cooking,Medium,Medium,68,7,1
+M,10,Team Meeting,Low,High,75,11.6,1.6
+M,23,Office Work,Low,High,66,24,1
+M,18,Office Work,Low,High,67,20.9,2.9
+F,12,Hiking,High,Medium,66,14.6,2.6
+F,7,Commute Home,Medium,Low,66,8.3,1.3
+F,13,Post-Lunch Walk,Low,Low,70,13.7,0.7
+M,3,Gym Workout,High,Medium,68,4.4,1.4
+F,8,Reading,Low,High,78,9.2,1.2
+M,0,Reading,Low,High,68,1.6,1.6
+F,8,Office Work,Low,High,68,11.2,3.2
+F,7,Family Time,Low,High,62,8.2,1.2
+M,0,Gym Workout,High,Medium,79,1.6,1.6
+M,3,Morning Run,High,Medium,84,4.3,1.3
+F,9,Hiking,High,Medium,79,11.8,2.8
+F,11,Family Time,Low,High,60,12,1
+F,17,Morning Run,High,Medium,72,18.8,1.8
+M,5,Sleep Prep Routine,Low,Low,64,6,1
+F,15,Office Work,Low,High,66,18.2,3.2
+M,12,Team Meeting,Low,High,76,13.2,1.2
+M,22,Family Time,Low,High,79,23.4,1.4
+F,2,Gaming,Low,Medium,71,2.9,0.9
+M,22,Post-Lunch Walk,Low,Low,69,22.8,0.8
+F,1,Reading,Low,High,61,2.3,1.3
+F,21,Commute Home,Medium,Low,70,22.4,1.4
+M,9,Cooking,Medium,Medium,79,10.2,1.2
+F,0,Coding Session,Low,High,61,3.4,3.4
+F,10,Reading,Low,High,80,11.1,1.1
+F,18,Team Meeting,Low,High,77,19.4,1.4
+M,22,Reading,Low,High,66,23.1,1.1
+F,20,Commute Home,Medium,Low,68,21.6,1.6
+M,16,Office Work,Low,High,62,18.1,2.1
+F,10,Family Time,Low,High,72,11.8,1.8
+M,19,Post-Lunch Walk,Low,Low,57,19.9,0.9
+M,10,Team Meeting,Low,High,65,11.8,1.8
+F,7,Sleep Prep Routine,Low,Low,68,7.7,0.7
+M,7,Reading,Low,High,61,8.1,1.1
+F,11,Meditation,Low,High,64,11.9,0.9
+M,10,Office Work,Low,High,74,13.3,3.3
+F,22,Office Work,Low,High,62,24,2
+M,14,Gym Workout,High,Medium,79,15.2,1.2
+M,16,Sleep Prep Routine,Low,Low,58,16.6,0.6
+M,7,Sleep Prep Routine,Low,Low,67,7.6,0.6
+F,4,Commute Home,Medium,Low,61,5.5,1.5
+M,1,Team Meeting,Low,High,66,3,2
+M,5,Cooking,Medium,Medium,62,6.8,1.8
+M,18,Coding Session,Low,High,65,20.7,2.7
+M,22,Office Work,Low,High,62,24,2
+F,11,Cooking,Medium,Medium,65,12.4,1.4
+F,0,Post-Lunch Walk,Low,Low,62,0.6,0.6
+M,3,Team Meeting,Low,High,78,4.4,1.4
+F,12,Family Time,Low,High,60,13.9,1.9
+M,14,Team Meeting,Low,High,68,15.3,1.3
+M,8,Family Time,Low,High,72,9.8,1.8
+M,23,Sleep Prep Routine,Low,Low,70,23.9,0.9
+F,18,Commute Home,Medium,Low,58,19.9,1.9
+M,3,Cooking,Medium,Medium,80,4.1,1.1
+F,17,Commute Home,Medium,Low,75,18.2,1.2
+M,8,Family Time,Low,High,75,9.1,1.1
+M,9,Gaming,Low,Medium,63,9.7,0.7
+F,13,Meditation,Low,High,80,13.7,0.7
+F,21,Family Time,Low,High,67,22.8,1.8
+M,14,Coding Session,Low,High,69,16.8,2.8
+M,22,Office Work,Low,High,72,24,2
+F,21,Coding Session,Low,High,63,23,2
+F,9,Sleep Prep Routine,Low,Low,50,9.7,0.7
+F,10,Meditation,Low,High,67,10.7,0.7
+M,14,Team Meeting,Low,High,62,15.8,1.8
+M,0,Family Time,Low,High,76,1.1,1.1
+M,8,Gaming,Low,Medium,58,8.5,0.5
+M,13,Family Time,Low,High,64,14.1,1.1
+F,9,Hiking,High,Medium,68,12.5,3.5
+M,10,Post-Lunch Walk,Low,Low,70,10.7,0.7
+F,11,Morning Run,High,Medium,74,12.6,1.6
+F,7,Post-Lunch Walk,Low,Low,59,7.9,0.9
+M,16,Meditation,Low,High,64,16.7,0.7
+M,5,Gaming,Low,Medium,68,5.6,0.6
+M,6,Post-Lunch Walk,Low,Low,59,6.9,0.9
+F,9,Yoga,Medium,Medium,67,10.5,1.5
+M,6,Commute Home,Medium,Low,71,7.5,1.5
+M,1,Family Time,Low,High,76,2.4,1.4
+M,21,Reading,Low,High,75,22.8,1.8
+F,20,Yoga,Medium,Medium,65,21.8,1.8
+F,15,Post-Lunch Walk,Low,Low,66,15.9,0.9
+F,6,Gaming,Low,Medium,72,6.5,0.5
+F,21,Reading,Low,High,70,22.8,1.8
+M,15,Post-Lunch Walk,Low,Low,69,15.8,0.8
+F,16,Meditation,Low,High,76,16.5,0.5
+M,17,Gaming,Low,Medium,62,17.9,0.9
+M,0,Family Time,Low,High,67,1.6,1.6
+M,6,Commute Home,Medium,Low,67,7.8,1.8
+F,15,Cooking,Medium,Medium,73,16.9,1.9
+F,9,Office Work,Low,High,65,12.6,3.6
+M,6,Gaming,Low,Medium,67,6.8,0.8
+F,16,Meditation,Low,High,69,16.9,0.9
+M,3,Yoga,Medium,Medium,65,4,1
+M,21,Cooking,Medium,Medium,68,22.6,1.6
+F,8,Sleep Prep Routine,Low,Low,69,8.5,0.5
+F,4,Morning Run,High,Medium,85,5.9,1.9
+F,21,Team Meeting,Low,High,75,22.3,1.3
+F,12,Office Work,Low,High,78,14.8,2.8
+F,12,Morning Run,High,Medium,84,13,1
+F,19,Hiking,High,Medium,77,21.2,2.2
+F,8,Reading,Low,High,61,9.4,1.4
+F,11,Sleep Prep Routine,Low,Low,55,11.7,0.7
+F,3,Team Meeting,Low,High,74,4,1
+F,12,Meditation,Low,High,60,12.9,0.9
+M,23,Reading,Low,High,67,24,1
+F,8,Family Time,Low,High,75,9.1,1.1
+M,23,Hiking,High,Medium,80,24,1
+F,14,Morning Run,High,Medium,76,15.7,1.7
+M,3,Coding Session,Low,High,62,6.6,3.6
+F,2,Gym Workout,High,Medium,72,3.1,1.1
+F,9,Yoga,Medium,Medium,63,10.1,1.1
+M,2,Gym Workout,High,Medium,69,3.9,1.9
+F,10,Office Work,Low,High,66,12.7,2.7
+M,5,Hiking,High,Medium,79,7.6,2.6
+F,13,Reading,Low,High,62,14.8,1.8
+M,10,Hiking,High,Medium,80,12.2,2.2
+F,7,Yoga,Medium,Medium,75,8.7,1.7
+M,0,Gym Workout,High,Medium,73,1.2,1.2
+M,11,Cooking,Medium,Medium,75,12,1
+F,13,Sleep Prep Routine,Low,Low,65,13.8,0.8
+F,22,Office Work,Low,High,60,24,2
+F,12,Post-Lunch Walk,Low,Low,59,12.9,0.9
+M,0,Sleep Prep Routine,Low,Low,61,0.5,0.5
+M,7,Commute Home,Medium,Low,61,9,2
+F,17,Commute Home,Medium,Low,65,18.9,1.9
+F,6,Gaming,Low,Medium,63,6.5,0.5
+F,18,Family Time,Low,High,69,19.7,1.7
+F,7,Hiking,High,Medium,81,9.7,2.7
+F,3,Post-Lunch Walk,Low,Low,60,3.8,0.8
+F,2,Gaming,Low,Medium,63,2.7,0.7
+F,10,Reading,Low,High,67,11.3,1.3
+M,22,Reading,Low,High,63,23.2,1.2
+M,15,Morning Run,High,Medium,67,16.1,1.1
+F,7,Yoga,Medium,Medium,70,8.7,1.7
+M,16,Hiking,High,Medium,74,19.2,3.2
+F,3,Family Time,Low,High,70,4.4,1.4
+M,23,Office Work,Low,High,74,24,1
+F,6,Family Time,Low,High,70,7.2,1.2
+M,8,Reading,Low,High,70,10,2
+F,18,Morning Run,High,Medium,65,19.9,1.9
+F,15,Team Meeting,Low,High,67,16.5,1.5
+F,23,Cooking,Medium,Medium,67,24,1
+M,7,Post-Lunch Walk,Low,Low,52,7.6,0.6
+F,14,Yoga,Medium,Medium,69,15.4,1.4
+F,15,Post-Lunch Walk,Low,Low,69,15.6,0.6
+M,8,Reading,Low,High,78,9.9,1.9
+F,10,Hiking,High,Medium,83,12.5,2.5
+F,10,Meditation,Low,High,70,10.6,0.6
+M,13,Gym Workout,High,Medium,85,14.4,1.4
+M,7,Office Work,Low,High,65,9.4,2.4
+F,12,Office Work,Low,High,60,14.3,2.3
+F,18,Meditation,Low,High,60,18.7,0.7
+M,22,Morning Run,High,Medium,82,23.6,1.6
+M,14,Hiking,High,Medium,76,16.8,2.8
+M,21,Hiking,High,Medium,80,24,3
+F,3,Post-Lunch Walk,Low,Low,62,3.9,0.9
+F,19,Family Time,Low,High,70,20.7,1.7
+M,8,Office Work,Low,High,62,11.3,3.3
+M,18,Team Meeting,Low,High,71,19.5,1.5
+M,0,Yoga,Medium,Medium,65,1.9,1.9
+F,7,Cooking,Medium,Medium,63,8.3,1.3
+F,13,Post-Lunch Walk,Low,Low,50,13.6,0.6
+F,23,Meditation,Low,High,63,23.9,0.9
