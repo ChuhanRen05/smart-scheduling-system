@@ -2,10 +2,15 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { Button } from "../ui/button";
 import MyCalendar from "../ui/calendar";
+import HealthScore from "./health-score"; 
 
 export const Overview = () => {
+  const mockScore = 88; // Replace with real score
+
   return (
-    <>
+    <div className="relative"> 
+      <HealthScore score={mockScore} /> 
+
       <motion.div
         key="overview"
         className="max-w-3xl mx-auto md:mt-20"
@@ -21,6 +26,6 @@ export const Overview = () => {
           {/* <MyCalendar /> */}
         </div>
       </motion.div>
-    </>
+    </div>
   );
 };
