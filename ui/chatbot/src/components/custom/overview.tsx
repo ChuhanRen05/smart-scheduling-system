@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { Button } from "../ui/button";
 import MyCalendar from "../ui/calendar";
-import HealthScore from "./health-score"; 
+import HealthScore from "./health-score";
 
 export const Overview = () => {
   const mockScore = 88; // Replace with real score
 
   return (
-    <div className="relative"> 
-      <HealthScore score={mockScore} /> 
+    <div className="relative">
+      <HealthScore score={mockScore} />
 
       <motion.div
         key="overview"
@@ -22,7 +22,11 @@ export const Overview = () => {
         <div className="rounded-xl p-6 flex flex-col gap-8 leading-relaxed text-center max-w-xl">
           <p className="flex flex-row justify-center gap-4 items-center"></p>
           <p>Welcome to the Smart Calendar.</p>
-          <p>Ready to create some events?</p>
+          <p>
+            I'm your schedule assistant. What's your name? (Add @ before your
+            name)
+          </p>
+          {/* <p>Ready to create some events?</p> */}
           {/* <MyCalendar /> */}
         </div>
       </motion.div>

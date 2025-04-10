@@ -137,38 +137,38 @@ def intent_matching(tokenized_userinput):
     return matched_intent
 
 
-def main():
-    global username
-    greeting_message()
-    first_time_use_management = True
-    while True:
+# def main():
+#     global username
+#     greeting_message()
+#     first_time_use_management = True
+#     while True:
 
-        userInput = input(f"{username}: ")
-        if userInput.lower() == "exit" or userInput.lower() == "quit":
-            print("Goodbye!")
-            break
-        tokenized_userinput = textTokenize.tokenize_sentence(userInput)
-        intent = intent_matching(tokenized_userinput)
-        if intent == "greeting":
-            greeting(tokenized_userinput)
-        elif intent == "question":
-            questionAnswering(tokenized_userinput)
-            print("Does the above answer meet your expectations?")
-            user_input = input(f"{username}: ")
-            if predict_user_feeling_positive(user_input):
-                print("Thank you for your reply. It has been very helpful to me.")
-            else:
-                print("Sorry for not meeting your expectations. I will continue to work hard to improve myself. "
-                      "Please continue with the next conversation")
-        elif intent == "discover":
-            discover(tokenized_userinput)
-        elif intent == "sorry":
-            print("Sorry, I can't understand your question."
-                  "Please try to use 'What is...' or 'I want to see my schedule'")
-        else:
-            identity()
+#         userInput = input(f"{username}: ")
+#         if userInput.lower() == "exit" or userInput.lower() == "quit":
+#             print("Goodbye!")
+#             break
+#         tokenized_userinput = textTokenize.tokenize_sentence(userInput)
+#         intent = intent_matching(tokenized_userinput)
+#         if intent == "greeting":
+#             greeting(tokenized_userinput)
+#         elif intent == "question":
+#             questionAnswering(tokenized_userinput)
+#             print("Does the above answer meet your expectations?")
+#             user_input = input(f"{username}: ")
+#             if predict_user_feeling_positive(user_input):
+#                 print("Thank you for your reply. It has been very helpful to me.")
+#             else:
+#                 print("Sorry for not meeting your expectations. I will continue to work hard to improve myself. "
+#                       "Please continue with the next conversation")
+#         elif intent == "discover":
+#             discover(tokenized_userinput)
+#         elif intent == "sorry":
+#             print("Sorry, I can't understand your question."
+#                   "Please try to use 'What is...' or 'I want to see my schedule'")
+#         else:
+#             identity()
 
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

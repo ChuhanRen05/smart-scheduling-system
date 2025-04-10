@@ -17,8 +17,8 @@ def get_answer_csv(document, idx):
     return answers[idx]
 
 def tokenize_sentence(sentence):
-    # nltk.download('punkt')
-    # nltk.download('punkt_tab')
+    nltk.download('punkt')
+    nltk.download('punkt_tab')
     tokenized_sentence = word_tokenize(sentence.lower())
     return tokenized_sentence
 def tokenize_sentences(sentences):
