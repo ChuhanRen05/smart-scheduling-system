@@ -12,7 +12,7 @@ from utils import generate_recommendation, score_user_schedule
 df = pd.read_csv("/Users/nicolesong/smart-scheduling-system/RL/calendar_activity_dataset_1000_rows.csv")
 unique_activities = df["Activity Name"].unique().tolist()
 
-# ✅ 补全默认活动
+# Fill out all other hours for user with default setting
 for extra in ["Sleep", "Free"]:
     if extra not in unique_activities:
         unique_activities.append(extra)
@@ -46,12 +46,12 @@ eval_callback = EvalCallback(
 # ========= Train model ==========
 model.learn(total_timesteps=100000, callback=eval_callback, tb_log_name="schedule_run_1")
 model.save("ppo_schedule_model")
-print("✅ Your model is saved as ppo_schedule_model.zip")
+print("Your model is saved as ppo_schedule_model.zip")
 
 # ========= Generate recommended schedule ==========
 recommended = generate_recommendation(base_env, model)
 
-print("\n📅 推荐日程：")
+print("\nRecommended Schedule：")
 for item in recommended:
     print(f"{item['hour']:02d}:00 → {item['activity']}")
 
@@ -64,4 +64,4 @@ user_schedule = [
 ]
 
 user_score = score_user_schedule(base_env, user_schedule)
-print("\n🧠 用户上传日程得分：", user_score)
+print("\nScore of user's schedule：", user_score)
