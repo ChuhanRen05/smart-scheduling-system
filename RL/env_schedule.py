@@ -23,7 +23,7 @@ class ScheduleEnv(gym.Env):
         super().reset(seed=seed)
         self.schedule = np.zeros(self.hours_per_day, dtype=np.int32)
         self.current_hour = 0
-        return self.schedule.copy(), {}  # gymnasium 需要返回 observation 和 info（空字典）
+        return self.schedule.copy(), {}  
 
 
     def step(self, action):
@@ -31,7 +31,7 @@ class ScheduleEnv(gym.Env):
         self.current_hour += 1
 
         terminated = self.current_hour == self.hours_per_day
-        truncated = False  # 我们暂时不考虑截断
+        truncated = False  # not now
 
         reward = self._calculate_reward() if terminated else 0
         return self.schedule.copy(), reward, terminated, truncated, {}
@@ -55,21 +55,21 @@ class ScheduleEnv(gym.Env):
             act_name = self.inverse_activity_map[int(act)]
             hour_reward = 0
 
-            # 睡觉奖励
+            # sleep reward
             if is_sleep(act_name):
                 if 21 <= hour or hour < 7:
                     hour_reward += 10
                 else:
                     hour_reward += 2
 
-            # 吃饭奖励
+            # eating reward
             elif is_eat(act_name):
                 if abs(hour - 12) <= 1 or abs(hour - 18) <= 1:
                     hour_reward += 5
                 else:
                     hour_reward += 1
 
-            # 工作惩罚（连续工作超过 4 小时）
+            # no more than 4 consecutive hour of working (-reward)
             elif is_work(act_name):
                 work_streak += 1
                 if work_streak > 4:
@@ -77,25 +77,25 @@ class ScheduleEnv(gym.Env):
             else:
                 work_streak = 0
 
-            # 运动奖励
+            # exercise reward
             if is_exercise(act_name):
                 if 6 <= hour <= 9:
                     hour_reward += 6
                 else:
                     hour_reward += 2
 
-            # 空档奖励
+            # break reward
             if is_break(act_name):
                 hour_reward += 3
 
-            # 游戏奖励惩罚（鼓励适量）
+            # game reward
             if is_gaming(act_name):
                 if 18 <= hour <= 22:
-                    hour_reward += 1  # 晚上玩一点 OK
+                    hour_reward += 1  # night ok
                 else:
-                    hour_reward -= 2  # 白天玩惩罚
+                    hour_reward -= 2  # no daytime playing
 
-            # 基础探索奖励
+            # basic reward
             if hour_reward == 0:
                 hour_reward += 0.2
 
