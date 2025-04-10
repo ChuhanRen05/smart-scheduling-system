@@ -21,12 +21,14 @@ const MyCalendar = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
-
   const [newEvent, setNewEvent] = useState<Event>({
     title: "",
     start: new Date(),
     end: new Date(),
   });
+
+  const [score, setScore] = useState<number | null>(null);
+  const [recommendation, setRecommendation] = useState<{ hour: number; activity: string }[]>([]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -58,7 +60,10 @@ const MyCalendar = () => {
 
   const handleSelectEvent = (event: CalendarEvent) => {
     const index = events.findIndex(
-      (e) => e.start.getTime() === event.start.getTime() && e.end.getTime() === event.end.getTime() && e.title === event.title
+      (e) =>
+        e.start.getTime() === event.start.getTime() &&
+        e.end.getTime() === event.end.getTime() &&
+        e.title === event.title
     );
     if (index !== -1) {
       setNewEvent(events[index]);
@@ -118,6 +123,66 @@ const MyCalendar = () => {
     setNewEvent({ title: "", start: new Date(), end: new Date() });
   };
 
+  // convert agenda to actvity and split to each hour
+  const convertEventsToHourlySchedule = (events: Event[]) => {
+    const result: { hour: number; activity: string }[] = [];
+
+    events.forEach((event) => {
+      const startHour = event.start.getHours();
+      const endHour = event.end.getHours();
+
+      for (let h = startHour; h < endHour; h++) {
+        result.push({ hour: h, activity: event.title });
+      }
+    });
+
+    return result;
+  };
+
+  
+  // press grading - websocket
+  const handleScore = () => {
+    const scheduleData = convertEventsToHourlySchedule(events);
+    const socket = new WebSocket("ws://localhost:8090");
+
+    socket.onopen = () => {
+      socket.send(
+        JSON.stringify({
+          type: "score",
+          events: scheduleData,
+        })
+      );
+    };
+
+    socket.onmessage = (event) => {
+      if (event.data === "[END]") return;
+
+      const data = JSON.parse(event.data);
+      if (data.type === "score_result") {
+        setScore(data.score);
+        alert(`🧠 Health Score：${data.score}`);
+      }
+    };
+  };
+
+  const handleRecommend = () => {
+    const socket = new WebSocket("ws://localhost:8090");
+  
+    socket.onopen = () => {
+      socket.send(JSON.stringify({ type: "recommend" }));
+    };
+  
+    socket.onmessage = (event) => {
+      if (event.data === "[END]") return;
+  
+      const data = JSON.parse(event.data);
+      if (data.type === "recommend_result") {
+        setRecommendation(data.schedule);
+      }
+    };
+  };
+  
+
   return (
     <div style={{ height: 700 }} className="relative">
       <Calendar
@@ -132,6 +197,41 @@ const MyCalendar = () => {
         onSelectSlot={handleSelectSlot}
         onSelectEvent={handleSelectEvent}
       />
+
+      {score !== null && (
+        <div className="text-center text-lg mt-4">
+          🧠 Current Health Score：<strong>{score}</strong>
+        </div>
+      )}
+
+      <div className="flex justify-center gap-4 mt-4">
+        <button
+          className="bg-green-600 text-white px-4 py-2 rounded"
+          onClick={handleScore}
+        >
+          Grading
+        </button>
+        <button
+          className="bg-blue-600 text-white px-4 py-2 rounded"
+          onClick={handleRecommend}
+        >
+          See Recommendation
+        </button>
+      </div>
+
+      {recommendation.length > 0 && (
+        <div className="text-left mt-6 px-4 max-w-lg mx-auto">
+          <h3 className="text-lg font-semibold mb-2"> Recommended Schdule：</h3>
+          <ul className="list-disc pl-4">
+            {recommendation.map((item) => (
+              <li key={item.hour}>
+                {item.hour.toString().padStart(2, "0")}:00 → {item.activity}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
 
       {modalOpen && (
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-lg p-6 z-50 w-96 border border-gray-300">
