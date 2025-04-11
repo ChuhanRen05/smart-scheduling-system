@@ -1,47 +1,59 @@
 import numpy as np
 
-def score_user_schedule(env, user_events: list[dict]) -> float:
+# ✅ generate_recommendation()
+def generate_recommendation(env, model):
+    obs, _ = env.reset()
+    done = False
+    current_hour_pointer = 0
+    recommended_schedule = []
+
+    while not done:
+        action, _ = model.predict(obs)
+        activity_id, duration_idx = action
+        duration = duration_idx + 1
+        activity = env.unwrapped.inverse_activity_map[activity_id]
+
+
+        recommended_schedule.append({
+            "activity": activity,
+            "start": current_hour_pointer,
+            "duration": duration
+        })
+
+        obs, _, done, _, _ = env.step(action)
+        current_hour_pointer += duration
+
+    return recommended_schedule
+
+def fill_blank(schedule, default="Sleep"):
+    filled = []
+    for item in schedule:
+        new_item = item.copy()
+        if new_item["activity"] == "None":
+            new_item["activity"] = default
+        filled.append(new_item)
+    return filled
+
+
+
+# ✅ score_user_schedule()
+def score_user_schedule(env, user_schedule: list[dict]) -> float:
     """
-    grading user's incomplete schedule, fill out the rest with default setting
-    user_events: e.g. [{"hour": 9, "activity": "Work"}, {"hour": 13, "activity": "Gym Workout"}]
+    将用户 schedule 转为完整 24h 数组，并打分
+    user_schedule 格式：[{"activity": str, "start": int, "duration": int}]
     """
-    # initialize 24 hour slot
-    full_schedule = []
-    for h in range(24):
-        if h < 8 or h >= 22:
-            full_schedule.append("Sleep")  # default sleep
-        else:
-            full_schedule.append("Free")   # default free time
+    full_schedule = np.full(env.total_hours, env.unwrapped.activity_map["None"], dtype=np.int32)
 
-    # 2. insert user's input agenda
-    for event in user_events:
-        hour = event.get("hour")
-        act = event.get("activity")
-        if 0 <= hour < 24 and act:
-            full_schedule[hour] = act
+    for item in user_schedule:
+        activity_id = env.unwrapped.activity_map.get(item["activity"], env.unwrapped.activity_map["None"])
+        start = item["start"]
+        duration = item.get("duration", 1)
+        for h in range(start, min(start + duration, env.total_hours)):
+            full_schedule[h] = activity_id
 
-    # 3. convert with activity code
-    schedule_codes = [env.activity_map.get(a, 0) for a in full_schedule]
-
-    # 4. set up env and grading
-    env.schedule = np.array(schedule_codes, dtype=np.int32)
-    score = env._calculate_reward()
-
+    score = env.calculate_reward(full_schedule)
     return round(score, 2)
 
 
-def generate_recommendation(env, model) -> list[dict]:
-    # generateds recommended schedule
-    # formate：[{ "hour": 0, "activity": "Sleep" }, ...]
-    obs, _ = env.reset()
-    done = False
-    while not done:
-        action, _ = model.predict(obs)
-        obs, reward, terminated, truncated, _ = env.step(action)
-        done = terminated or truncated
-
-    recommended_schedule = [
-        {"hour": h, "activity": env.inverse_activity_map[int(a)]}
-        for h, a in enumerate(obs)
-    ]
-    return recommended_schedule
+# recommended = generate_recommendation(env, model)
+# recommended = fill_blank(recommended)

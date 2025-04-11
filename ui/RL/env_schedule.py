@@ -1,107 +1,115 @@
-import gymnasium as gym
-from gymnasium import spaces
+# ✅ env_schedule.py
 import numpy as np
-import pandas as pd
+from gymnasium import Env
+from gymnasium.spaces import MultiDiscrete
 
-class ScheduleEnv(gym.Env):
+class ScheduleEnv(Env):
     def __init__(self, df, activity_map):
-        super(ScheduleEnv, self).__init__()
-
         self.df = df
         self.activity_map = activity_map
         self.inverse_activity_map = {v: k for k, v in activity_map.items()}
-        self.num_activities = len(activity_map)
-        self.hours_per_day = 24
+        self.total_hours = 24
+        self.max_duration = 4
 
-        self.action_space = spaces.Discrete(self.num_activities)
-        self.observation_space = spaces.Box(low=0, high=self.num_activities - 1,
-                                            shape=(self.hours_per_day,), dtype=np.int32)
+        self.action_space = MultiDiscrete([len(activity_map), self.max_duration])  # activity + duration idx
+        self.observation_space = MultiDiscrete([len(activity_map)] * self.total_hours)
 
         self.reset()
 
-    def reset(self, seed=None, options=None):
-        super().reset(seed=seed)
-        self.schedule = np.zeros(self.hours_per_day, dtype=np.int32)
+    def reset(self, *, seed=None, options=None):
         self.current_hour = 0
-        return self.schedule.copy(), {}  
-
+        self.schedule = np.full(self.total_hours, self.activity_map["None"], dtype=np.int32)
+        return self.schedule.copy(), {}
 
     def step(self, action):
-        self.schedule[self.current_hour] = action
-        self.current_hour += 1
+        activity_id, duration_idx = action
 
-        terminated = self.current_hour == self.hours_per_day
-        truncated = False  # not now
+        # ✅ 映射为 1~4 小时
+        duration = duration_idx + 1
 
-        reward = self._calculate_reward() if terminated else 0
-        return self.schedule.copy(), reward, terminated, truncated, {}
+        for _ in range(duration):
+            if self.current_hour >= self.total_hours:
+                break
+            self.schedule[self.current_hour] = activity_id
+            self.current_hour += 1
 
+        done = self.current_hour >= self.total_hours
+        reward = self.calculate_reward(self.schedule)
+        return self.schedule.copy(), reward, done, False, {}
 
-    def _calculate_reward(self):
+    def calculate_reward(self, schedule: np.ndarray) -> float:
         reward = 0
-        work_streak = 0
+        sleep_hours = set(range(22, 24)) | set(range(0, 6))  # 夜间时段
+        none_count = 0
+        sleep_streak = 0
+        max_sleep_streak = 0
 
-        def is_sleep(name): return any(k in name.lower() for k in ["sleep", "nap"])
-        def is_eat(name): return any(k in name.lower() for k in ["eat", "lunch", "dinner", "meal", "snack"])
-        def is_work(name): return any(k in name.lower() for k in ["work", "study"])
-        def is_exercise(name): return any(k in name.lower() for k in ["gym", "workout", "run", "walk", "yoga", "cycling"])
-        def is_break(name): return any(k in name.lower() for k in ["meditation", "rest", "free", "social", "read", "break"])
-        def is_gaming(name): return "gaming" in name.lower()
+        for hour, act_id in enumerate(schedule):
+            act = self.inverse_activity_map[act_id]
 
-        print("\n📋 Schedule Evaluation:")
-
-        for hour in range(self.hours_per_day):
-            act = self.schedule[hour]
-            act_name = self.inverse_activity_map[int(act)]
-            hour_reward = 0
-
-            # sleep reward
-            if is_sleep(act_name):
-                if 21 <= hour or hour < 7:
-                    hour_reward += 10
+            # 🌙 夜间睡觉加分 / 不睡觉扣分
+            if hour in sleep_hours:
+                if act == "Sleep":
+                    reward += 10
                 else:
-                    hour_reward += 2
+                    reward -= 5
 
-            # eating reward
-            elif is_eat(act_name):
-                if abs(hour - 12) <= 1 or abs(hour - 18) <= 1:
-                    hour_reward += 5
-                else:
-                    hour_reward += 1
-
-            # no more than 4 consecutive hour of working (-reward)
-            elif is_work(act_name):
-                work_streak += 1
-                if work_streak > 4:
-                    hour_reward -= 8
+            # 💤 睡眠连续检测
+            if act == "Sleep":
+                sleep_streak += 1
+                max_sleep_streak = max(max_sleep_streak, sleep_streak)
             else:
-                work_streak = 0
+                sleep_streak = 0
 
-            # exercise reward
-            if is_exercise(act_name):
-                if 6 <= hour <= 9:
-                    hour_reward += 6
-                else:
-                    hour_reward += 2
+            # 🧠 时间段奖励逻辑
+            if act == "Work" and 9 <= hour < 17:
+                reward += 3
+            elif act == "Study" and 9 <= hour < 17:
+                reward += 3
+            elif act == "Gym Workout" and 6 <= hour < 9:
+                reward += 4
+            elif act == "Gaming":
+                reward -= 2
+            elif act == "Reading":
+                reward += 2
+            elif act == "None":
+                none_count += 1
+                reward += 1
+            elif act == "Socializing":
+                reward += 2
+            elif act == "Meditation":
+                reward += 2
 
-            # break reward
-            if is_break(act_name):
-                hour_reward += 3
+        # 🌙 连续睡眠额外奖励
+        if max_sleep_streak >= 6:
+            reward += 20
 
-            # game reward
-            if is_gaming(act_name):
-                if 18 <= hour <= 22:
-                    hour_reward += 1  # night ok
-                else:
-                    hour_reward -= 2  # no daytime playing
+        # 🚫 太多空白惩罚
+        if none_count > 8:
+            reward -= (none_count - 8) * 2
 
-            # basic reward
-            if hour_reward == 0:
-                hour_reward += 0.2
+        return reward
 
-            print(f"{hour:02d}:00 → {act_name:<15} | reward: {hour_reward:.2f}")
-            reward += hour_reward
 
-        final_score = reward / self.hours_per_day
-        print(f"\n🎯 Final health score: {final_score:.2f}")
-        return final_score
+# ✅ generate_recommendation()
+def generate_recommendation(env, model):
+    obs, _ = env.reset()
+    done = False
+    actions_taken = []
+
+    while not done:
+        action, _ = model.predict(obs)
+        actions_taken.append((env.current_hour, action))
+        obs, _, done, _, _ = env.step(action)
+
+    recommended_schedule = []
+    for start_hour, (act_id, duration_idx) in actions_taken:
+        duration = duration_idx + 1
+        activity = env.inverse_activity_map[act_id]
+        recommended_schedule.append({
+            "activity": activity,
+            "start": start_hour,
+            "duration": duration
+        })
+
+    return recommended_schedule
