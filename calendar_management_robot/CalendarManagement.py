@@ -4,7 +4,7 @@ import cosineSimularity
 import textTokenize
 import tf_idf
 import re
-
+from activityGrading import activity_grading
 # the intents for calendar management system(use for calender_intent_matching)
 intents = {
     "view_schedule": ["Please show me", "view", "take a look", "report", "open", "display", "check", "see"],
@@ -12,6 +12,7 @@ intents = {
     "delete_event": ["Delete", "cancel", "remove", "discard", "withdraw", "erase"],
     "negative": ["No", "don't", "not"],
 }
+
 conn = sqlite3.connect("calender.db")
 cursor = conn.cursor()
 cursor.execute('''
@@ -360,8 +361,8 @@ def main_loop(username, siginal, user_input):
         if counter >= 3:
             print("Sorry, it seems that I am unable to fulfill your request. Please change a job for me")
             return 1
-
         add_event_to_db(date, start_time, end_time, event)
+        activity_grading(start_time, end_time, event)
         view_schedule_from_db(date)
         return 2
     elif action == "delete_event":
