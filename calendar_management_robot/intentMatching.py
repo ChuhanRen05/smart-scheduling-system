@@ -8,8 +8,8 @@ intents = {
     "greeting": ["Hello", "Hi", "How are you", "Hey", "Thank you"],
     "discover": ["What can you do?",  "may i ask a question"],
     "idendity": ["my name", "Amy", "Jason", "Tenny", "Bob", "my name is"],
-    "question": ["what is the average american income", "where is osaka japan", "who is mary matalin married to",
-                  "What are", "time"],
+    "question": ["hi, how are you doing", "Can eating too fast cause digestive problems", "Does drinking cold water burn more calories",
+                  "What are", "time","does","how","Does drinking warm milk really help you sleep","should"],
     "calender_management": ["calendar", "schedule", "add event", "delete event", "view my schedule",
                              "management system", "date", "meeting", "check", "cancel", "discord", "remove","withdraw",
                              "erase","plan","book","set","show schedule","open", "see"]
@@ -78,7 +78,7 @@ def greeting(tokenized_userinput):
     else:
         print(textTokenize.get_answer_csv("greeting-Dataset.csv", most_similar_sentence_index))
 def questionAnswering(tokenized_userinput):
-    document = "COMP3074-CW1-Dataset.csv"
+    document = "dataset_QA.csv"
     tokenized_document = textTokenize.tokenize_pipeline_csv(document)
 
     idf = tf_idf.compute_idf(tokenized_document)
@@ -99,7 +99,7 @@ def questionAnswering(tokenized_userinput):
     if most_similar_sentence_index == -1 and most_similar_sentence == None:
         print("Sorry, I can't understand your question.")
     else:
-        print(textTokenize.get_answer_csv("COMP3074-CW1-Dataset.csv", most_similar_sentence_index))
+        print(textTokenize.get_answer_csv("dataset_QA.csv", most_similar_sentence_index))
 def greeting_message():
     print("Hello! I'm Lee, your personal timetable management robot. What's your name? (Add @ before your name)")
     matches = getUserName()
