@@ -1,0 +1,1001 @@
+Gender,Activity begin time,Activity Name,Physical Intensity,Mental Intensity,Health Score,Activity end time,total time
+M,06:51,Running,High,Low,63,07:51,1.0
+F,23:02,Reading,Low,High,49,00:32,1.5
+M,11:57,Meditation,Low,High,52,14:03,2.1
+M,09:27,Cooking,Medium,Medium,55,10:33,1.1
+M,02:36,Work Meeting,Medium,High,53,04:12,1.6
+F,19:27,Running,High,Low,61,20:09,0.7
+M,13:16,Walking,Medium,Low,54,13:34,0.3
+M,09:03,Reading,Low,High,46,09:51,0.8
+M,17:46,Sleep Prep Routine,Low,Low,58,19:28,1.7
+M,08:28,Journaling,Low,High,56,11:22,2.9
+F,04:41,Reading,Low,High,54,07:11,2.5
+F,01:32,Work Meeting,Medium,High,50,02:32,1.0
+F,07:21,Running,High,Low,62,08:09,0.8
+M,00:04,Journaling,Low,High,62,04:09,4.1
+F,14:25,Yoga,Medium,Medium,54,15:13,0.8
+F,04:22,Meditation,Low,High,59,07:46,3.4
+M,01:41,Yoga,Medium,Medium,61,03:53,2.2
+M,11:19,Walking,Medium,Low,62,13:13,1.9
+F,19:12,Walking,Medium,Low,61,20:48,1.6
+F,11:23,Yoga,Medium,Medium,59,13:11,1.8
+F,16:48,Running,High,Low,63,17:48,1.0
+F,04:48,Sleep Prep Routine,Low,Low,59,06:42,1.9
+M,00:18,Weight Training,High,Low,60,00:48,0.5
+M,22:03,Sleep Prep Routine,Low,Low,61,00:21,2.3
+F,04:51,Cooking,Medium,Medium,59,06:39,1.8
+F,08:59,Work Meeting,Medium,High,54,10:47,1.8
+M,03:18,Journaling,Low,High,49,04:42,1.4
+M,08:32,Running,High,Low,65,09:56,1.4
+M,17:22,Gaming,Low,Medium,54,18:46,1.4
+M,15:56,Reading,Low,High,55,18:38,2.7
+M,22:08,Weight Training,High,Low,64,23:26,1.3
+F,21:55,Cycling,High,Low,64,23:07,1.2
+F,17:45,Meditation,Low,High,49,19:09,1.4
+F,00:03,Yoga,Medium,Medium,56,01:21,1.3
+M,06:02,Cooking,Medium,Medium,61,08:14,2.2
+F,22:21,Journaling,Low,High,57,01:21,3.0
+M,00:27,Work Meeting,Medium,High,51,01:39,1.2
+M,03:34,Sleep Prep Routine,Low,Low,61,05:52,2.3
+M,08:36,Meditation,Low,High,51,10:30,1.9
+F,20:31,Weight Training,High,Low,60,21:01,0.5
+F,21:57,Cooking,Medium,Medium,53,22:39,0.7
+M,09:01,Cooking,Medium,Medium,55,10:07,1.1
+F,06:28,Running,High,Low,60,06:52,0.4
+M,06:56,Running,High,Low,60,07:20,0.4
+F,13:11,Weight Training,High,Low,62,14:05,0.9
+F,21:57,Walking,Medium,Low,62,23:51,1.9
+M,07:52,Work Meeting,Medium,High,50,08:52,1.0
+F,02:54,Reading,Low,High,57,05:54,3.0
+F,04:25,Weight Training,High,Low,61,05:07,0.7
+F,01:31,Meditation,Low,High,49,02:55,1.4
+F,15:38,Meditation,Low,High,48,16:50,1.2
+M,21:56,Journaling,Low,High,50,23:32,1.6
+F,19:04,Journaling,Low,High,43,19:16,0.2
+F,00:29,Work Meeting,Medium,High,54,02:17,1.8
+F,23:04,Yoga,Medium,Medium,63,01:40,2.6
+M,19:23,Meditation,Low,High,52,21:29,2.1
+F,10:36,Walking,Medium,Low,62,12:30,1.9
+M,12:11,Walking,Medium,Low,58,13:11,1.0
+M,09:25,Cooking,Medium,Medium,55,10:31,1.1
+M,17:44,Cooking,Medium,Medium,59,19:38,1.9
+F,23:34,Work Meeting,Medium,High,52,00:58,1.4
+M,23:22,Weight Training,High,Low,65,00:52,1.5
+F,16:48,Work Meeting,Medium,High,52,18:12,1.4
+F,16:35,Sleep Prep Routine,Low,Low,68,20:17,3.7
+F,20:04,Sleep Prep Routine,Low,Low,65,23:04,3.0
+M,22:15,Cooking,Medium,Medium,60,00:15,2.0
+M,22:28,Cooking,Medium,Medium,56,23:40,1.2
+F,11:16,Cooking,Medium,Medium,59,13:10,1.9
+F,04:28,Walking,Medium,Low,56,05:10,0.7
+F,11:53,Weight Training,High,Low,59,12:05,0.2
+M,12:12,Cycling,High,Low,66,13:54,1.7
+M,08:38,Journaling,Low,High,52,10:38,2.0
+F,16:24,Sleep Prep Routine,Low,Low,61,18:42,2.3
+M,10:59,Sleep Prep Routine,Low,Low,61,13:11,2.2
+M,08:48,Cooking,Medium,Medium,65,11:48,3.0
+F,15:22,Cooking,Medium,Medium,54,16:16,0.9
+M,07:57,Meditation,Low,High,46,08:45,0.8
+F,21:16,Meditation,Low,High,47,22:22,1.1
+M,12:45,Work Meeting,Medium,High,49,13:39,0.9
+F,04:54,Cycling,High,Low,65,06:18,1.4
+M,10:20,Walking,Medium,Low,66,12:56,2.6
+F,00:33,Gaming,Low,Medium,58,02:51,2.3
+M,22:36,Running,High,Low,63,23:42,1.1
+M,08:45,Work Meeting,Medium,High,50,09:45,1.0
+M,07:31,Walking,Medium,Low,59,08:49,1.3
+F,17:11,Walking,Medium,Low,66,19:53,2.7
+M,13:01,Meditation,Low,High,59,16:31,3.5
+F,14:26,Sleep Prep Routine,Low,Low,56,15:38,1.2
+M,14:59,Gaming,Low,Medium,61,17:53,2.9
+F,09:55,Reading,Low,High,48,11:13,1.3
+M,10:42,Journaling,Low,High,49,12:06,1.4
+F,23:24,Weight Training,High,Low,63,00:30,1.1
+F,18:18,Cycling,High,Low,62,19:06,0.8
+F,05:00,Walking,Medium,Low,60,06:24,1.4
+M,14:56,Reading,Low,High,49,16:20,1.4
+M,16:25,Yoga,Medium,Medium,57,17:55,1.5
+M,13:25,Work Meeting,Medium,High,56,15:43,2.3
+M,23:50,Work Meeting,Medium,High,55,01:50,2.0
+M,12:17,Running,High,Low,64,13:29,1.2
+M,04:27,Journaling,Low,High,59,07:51,3.4
+M,02:40,Reading,Low,High,62,06:40,4.0
+M,07:39,Running,High,Low,59,07:57,0.3
+F,01:58,Walking,Medium,Low,61,03:34,1.6
+M,10:29,Gaming,Low,Medium,58,12:41,2.2
+F,05:01,Reading,Low,High,58,08:13,3.2
+M,01:14,Journaling,Low,High,51,03:02,1.8
+F,21:03,Reading,Low,High,50,22:39,1.6
+F,13:37,Weight Training,High,Low,59,13:49,0.2
+M,00:05,Walking,Medium,Low,58,01:11,1.1
+M,00:36,Cooking,Medium,Medium,56,01:48,1.2
+F,04:59,Yoga,Medium,Medium,60,06:59,2.0
+F,07:10,Weight Training,High,Low,61,07:52,0.7
+F,04:18,Journaling,Low,High,54,06:48,2.5
+M,17:39,Cooking,Medium,Medium,57,19:09,1.5
+M,00:22,Running,High,Low,63,01:28,1.1
+F,01:13,Journaling,Low,High,55,03:49,2.6
+F,09:51,Walking,Medium,Low,63,11:57,2.1
+M,03:28,Reading,Low,High,53,05:46,2.3
+M,03:21,Sleep Prep Routine,Low,Low,59,05:09,1.8
+F,12:30,Meditation,Low,High,56,15:18,2.8
+F,07:04,Meditation,Low,High,59,10:34,3.5
+F,10:26,Cycling,High,Low,62,11:20,0.9
+M,07:22,Walking,Medium,Low,58,08:28,1.1
+F,17:24,Sleep Prep Routine,Low,Low,57,18:48,1.4
+M,15:03,Running,High,Low,64,16:21,1.3
+M,18:28,Walking,Medium,Low,58,19:34,1.1
+M,00:53,Meditation,Low,High,49,02:23,1.5
+F,08:09,Cycling,High,Low,61,08:51,0.7
+F,01:06,Reading,Low,High,46,02:00,0.9
+F,11:58,Running,High,Low,62,12:52,0.9
+M,23:32,Weight Training,High,Low,65,01:02,1.5
+M,19:40,Weight Training,High,Low,62,20:34,0.9
+F,12:29,Cycling,High,Low,62,13:17,0.8
+F,16:44,Weight Training,High,Low,65,18:14,1.5
+F,18:46,Meditation,Low,High,44,19:16,0.5
+M,18:03,Gaming,Low,Medium,57,20:09,2.1
+M,09:18,Running,High,Low,63,10:18,1.0
+M,00:56,Journaling,Low,High,52,02:56,2.0
+F,02:50,Running,High,Low,60,03:20,0.5
+M,13:31,Work Meeting,Medium,High,51,14:49,1.3
+F,20:13,Sleep Prep Routine,Low,Low,59,22:07,1.9
+M,17:01,Running,High,Low,62,17:55,0.9
+M,02:22,Meditation,Low,High,55,04:58,2.6
+M,02:51,Work Meeting,Medium,High,50,03:57,1.1
+M,16:49,Cooking,Medium,Medium,58,18:31,1.7
+M,10:45,Weight Training,High,Low,62,11:33,0.8
+M,10:05,Work Meeting,Medium,High,55,12:05,2.0
+M,11:22,Work Meeting,Medium,High,51,12:40,1.3
+M,12:56,Work Meeting,Medium,High,53,14:38,1.7
+M,13:01,Weight Training,High,Low,62,13:55,0.9
+F,20:10,Gaming,Low,Medium,55,21:46,1.6
+M,02:53,Cooking,Medium,Medium,57,04:17,1.4
+F,00:57,Reading,Low,High,61,04:45,3.8
+F,01:08,Weight Training,High,Low,62,01:56,0.8
+M,10:39,Cooking,Medium,Medium,57,12:09,1.5
+F,11:50,Cycling,High,Low,63,12:56,1.1
+F,16:16,Walking,Medium,Low,60,17:40,1.4
+M,23:18,Cycling,High,Low,66,00:54,1.6
+M,05:07,Walking,Medium,Low,56,05:49,0.7
+M,22:25,Sleep Prep Routine,Low,Low,61,00:37,2.2
+F,17:58,Meditation,Low,High,52,19:58,2.0
+F,17:58,Walking,Medium,Low,63,20:04,2.1
+M,22:22,Yoga,Medium,Medium,56,23:40,1.3
+F,12:17,Meditation,Low,High,52,14:23,2.1
+F,02:41,Sleep Prep Routine,Low,Low,68,06:17,3.6
+F,11:46,Work Meeting,Medium,High,49,12:34,0.8
+M,00:29,Cooking,Medium,Medium,56,01:47,1.3
+F,17:36,Cooking,Medium,Medium,56,18:54,1.3
+M,11:58,Meditation,Low,High,59,15:22,3.4
+F,06:51,Walking,Medium,Low,59,08:09,1.3
+M,18:44,Journaling,Low,High,55,21:26,2.7
+M,22:48,Gaming,Low,Medium,51,23:42,0.9
+F,02:49,Work Meeting,Medium,High,54,04:37,1.8
+M,12:55,Journaling,Low,High,48,14:13,1.3
+F,02:24,Reading,Low,High,50,04:06,1.7
+F,14:37,Sleep Prep Routine,Low,Low,57,16:01,1.4
+F,15:12,Gaming,Low,Medium,65,18:48,3.6
+M,07:26,Walking,Medium,Low,62,09:14,1.8
+F,00:58,Gaming,Low,Medium,60,03:34,2.6
+M,09:35,Running,High,Low,65,11:05,1.5
+F,10:52,Meditation,Low,High,54,13:16,2.4
+F,11:38,Meditation,Low,High,49,13:08,1.5
+F,23:44,Sleep Prep Routine,Low,Low,63,02:20,2.6
+F,01:27,Sleep Prep Routine,Low,Low,58,03:09,1.7
+M,16:11,Walking,Medium,Low,56,16:53,0.7
+M,17:49,Journaling,Low,High,48,19:01,1.2
+M,10:32,Sleep Prep Routine,Low,Low,64,13:20,2.8
+M,01:45,Yoga,Medium,Medium,57,03:15,1.5
+M,10:51,Weight Training,High,Low,63,11:51,1.0
+M,02:16,Running,High,Low,66,03:52,1.6
+F,00:57,Yoga,Medium,Medium,60,03:03,2.1
+M,14:43,Yoga,Medium,Medium,57,16:07,1.4
+M,20:07,Cooking,Medium,Medium,60,22:13,2.1
+M,11:52,Cooking,Medium,Medium,55,12:52,1.0
+M,08:37,Yoga,Medium,Medium,58,10:13,1.6
+F,01:23,Work Meeting,Medium,High,50,02:29,1.1
+M,17:45,Reading,Low,High,56,20:39,2.9
+M,08:16,Meditation,Low,High,51,10:10,1.9
+F,19:32,Running,High,Low,59,19:50,0.3
+M,00:40,Journaling,Low,High,50,02:22,1.7
+F,01:37,Weight Training,High,Low,66,03:19,1.7
+M,22:43,Gaming,Low,Medium,64,02:07,3.4
+M,07:07,Journaling,Low,High,55,09:43,2.6
+M,06:10,Weight Training,High,Low,65,07:34,1.4
+M,02:40,Cycling,High,Low,65,04:04,1.4
+M,11:12,Reading,Low,High,47,12:18,1.1
+F,12:07,Yoga,Medium,Medium,57,13:31,1.4
+F,02:27,Reading,Low,High,48,03:45,1.3
+M,20:30,Running,High,Low,66,22:06,1.6
+M,19:59,Weight Training,High,Low,63,21:05,1.1
+F,01:14,Gaming,Low,Medium,57,03:14,2.0
+M,21:11,Gaming,Low,Medium,56,22:59,1.8
+F,07:35,Cooking,Medium,Medium,56,08:53,1.3
+F,14:13,Cooking,Medium,Medium,58,15:55,1.7
+F,01:34,Running,High,Low,61,02:16,0.7
+M,12:22,Gaming,Low,Medium,50,12:58,0.6
+M,08:00,Work Meeting,Medium,High,47,08:24,0.4
+F,10:36,Running,High,Low,65,12:00,1.4
+M,23:27,Work Meeting,Medium,High,55,01:33,2.1
+F,13:01,Yoga,Medium,Medium,55,14:07,1.1
+F,02:05,Weight Training,High,Low,65,03:35,1.5
+M,17:23,Weight Training,High,Low,61,17:59,0.6
+M,05:19,Gaming,Low,Medium,58,07:31,2.2
+M,05:04,Journaling,Low,High,53,07:22,2.3
+F,14:39,Running,High,Low,62,15:33,0.9
+M,13:52,Yoga,Medium,Medium,61,16:10,2.3
+F,05:08,Walking,Medium,Low,60,06:38,1.5
+F,01:37,Work Meeting,Medium,High,50,02:43,1.1
+F,08:22,Cooking,Medium,Medium,55,09:28,1.1
+M,20:14,Journaling,Low,High,46,21:08,0.9
+F,00:48,Sleep Prep Routine,Low,Low,60,02:48,2.0
+F,07:45,Cooking,Medium,Medium,59,09:39,1.9
+F,07:47,Yoga,Medium,Medium,52,08:11,0.4
+F,10:47,Journaling,Low,High,55,13:29,2.7
+F,20:22,Sleep Prep Routine,Low,Low,58,21:58,1.6
+M,03:20,Reading,Low,High,51,05:14,1.9
+F,20:51,Cooking,Medium,Medium,59,22:45,1.9
+F,09:35,Cooking,Medium,Medium,61,11:53,2.3
+M,11:09,Work Meeting,Medium,High,53,12:45,1.6
+F,09:55,Weight Training,High,Low,65,11:19,1.4
+M,23:44,Gaming,Low,Medium,62,02:44,3.0
+F,21:27,Reading,Low,High,49,22:57,1.5
+F,09:07,Work Meeting,Medium,High,54,11:01,1.9
+F,23:18,Cycling,High,Low,64,00:36,1.3
+F,09:32,Cycling,High,Low,60,10:02,0.5
+M,00:54,Sleep Prep Routine,Low,Low,55,01:54,1.0
+F,06:31,Journaling,Low,High,50,08:13,1.7
+M,01:34,Cooking,Medium,Medium,57,02:58,1.4
+M,08:48,Gaming,Low,Medium,59,11:12,2.4
+F,12:45,Walking,Medium,Low,59,14:03,1.3
+M,00:58,Cooking,Medium,Medium,53,01:40,0.7
+F,04:43,Reading,Low,High,54,07:13,2.5
+M,21:43,Meditation,Low,High,57,00:49,3.1
+M,01:22,Running,High,Low,62,02:10,0.8
+M,12:28,Cycling,High,Low,61,13:10,0.7
+M,22:15,Cycling,High,Low,62,23:09,0.9
+F,18:39,Cooking,Medium,Medium,60,20:39,2.0
+M,21:17,Journaling,Low,High,56,00:05,2.8
+F,19:33,Cycling,High,Low,60,19:57,0.4
+F,08:00,Reading,Low,High,58,11:12,3.2
+M,22:05,Cooking,Medium,Medium,59,23:59,1.9
+M,02:29,Walking,Medium,Low,61,04:11,1.7
+F,20:34,Reading,Low,High,52,22:34,2.0
+M,09:24,Journaling,Low,High,53,11:36,2.2
+F,00:45,Running,High,Low,65,02:09,1.4
+M,01:07,Walking,Medium,Low,54,01:19,0.2
+F,11:31,Meditation,Low,High,54,13:55,2.4
+F,10:01,Cooking,Medium,Medium,58,11:43,1.7
+F,10:49,Cycling,High,Low,63,11:49,1.0
+F,15:15,Sleep Prep Routine,Low,Low,56,16:27,1.2
+F,19:35,Meditation,Low,High,47,20:35,1.0
+F,06:26,Cycling,High,Low,66,08:02,1.6
+F,22:01,Reading,Low,High,55,00:43,2.7
+F,22:57,Sleep Prep Routine,Low,Low,62,01:27,2.5
+F,12:20,Cooking,Medium,Medium,54,13:14,0.9
+M,20:51,Gaming,Low,Medium,57,22:57,2.1
+F,02:40,Walking,Medium,Low,61,04:16,1.6
+F,16:40,Reading,Low,High,50,18:22,1.7
+F,17:57,Yoga,Medium,Medium,57,19:27,1.5
+F,07:58,Sleep Prep Routine,Low,Low,61,10:10,2.2
+M,12:18,Meditation,Low,High,56,15:12,2.9
+M,02:23,Reading,Low,High,46,03:11,0.8
+F,03:10,Journaling,Low,High,53,05:22,2.2
+M,21:31,Journaling,Low,High,51,23:19,1.8
+M,16:30,Walking,Medium,Low,62,18:18,1.8
+F,22:49,Weight Training,High,Low,61,23:31,0.7
+F,12:52,Sleep Prep Routine,Low,Low,57,14:16,1.4
+F,09:14,Weight Training,High,Low,62,10:02,0.8
+M,13:59,Reading,Low,High,53,16:11,2.2
+F,11:31,Weight Training,High,Low,62,12:19,0.8
+M,11:40,Work Meeting,Medium,High,56,13:58,2.3
+F,22:43,Cycling,High,Low,64,23:55,1.2
+M,12:17,Yoga,Medium,Medium,55,13:23,1.1
+F,11:12,Weight Training,High,Low,67,13:06,1.9
+F,21:18,Sleep Prep Routine,Low,Low,55,22:24,1.1
+M,15:07,Cycling,High,Low,63,16:13,1.1
+M,10:24,Gaming,Low,Medium,53,11:42,1.3
+F,08:47,Cycling,High,Low,62,09:35,0.8
+M,18:30,Weight Training,High,Low,63,19:36,1.1
+F,23:53,Cooking,Medium,Medium,60,01:53,2.0
+F,20:09,Journaling,Low,High,54,22:33,2.4
+M,13:02,Cycling,High,Low,66,14:38,1.6
+M,23:33,Work Meeting,Medium,High,57,01:57,2.4
+M,23:44,Weight Training,High,Low,64,01:02,1.3
+M,22:48,Walking,Medium,Low,58,23:48,1.0
+F,14:10,Meditation,Low,High,52,16:10,2.0
+F,19:47,Meditation,Low,High,51,21:35,1.8
+M,09:49,Gaming,Low,Medium,65,13:31,3.7
+F,05:16,Yoga,Medium,Medium,51,05:28,0.2
+M,20:09,Cycling,High,Low,63,21:15,1.1
+F,06:49,Yoga,Medium,Medium,57,08:19,1.5
+F,19:23,Gaming,Low,Medium,59,21:47,2.4
+F,09:15,Gaming,Low,Medium,56,11:09,1.9
+M,08:44,Cycling,High,Low,63,09:44,1.0
+M,06:05,Journaling,Low,High,54,08:35,2.5
+M,09:25,Yoga,Medium,Medium,54,10:19,0.9
+M,04:23,Cooking,Medium,Medium,57,05:53,1.5
+M,06:21,Cooking,Medium,Medium,64,09:15,2.9
+M,21:48,Running,High,Low,59,22:00,0.2
+M,20:04,Reading,Low,High,56,22:58,2.9
+M,21:11,Work Meeting,Medium,High,52,22:41,1.5
+M,18:48,Reading,Low,High,49,20:12,1.4
+M,13:51,Cycling,High,Low,61,14:33,0.7
+M,08:39,Work Meeting,Medium,High,57,11:03,2.4
+M,05:38,Cycling,High,Low,63,06:44,1.1
+F,18:10,Yoga,Medium,Medium,53,18:46,0.6
+M,03:36,Work Meeting,Medium,High,53,05:18,1.7
+M,07:17,Meditation,Low,High,51,09:11,1.9
+F,02:44,Walking,Medium,Low,61,04:20,1.6
+M,04:31,Gaming,Low,Medium,62,07:37,3.1
+F,21:18,Weight Training,High,Low,63,22:24,1.1
+M,12:54,Walking,Medium,Low,58,13:54,1.0
+M,02:32,Walking,Medium,Low,57,03:20,0.8
+F,05:18,Cooking,Medium,Medium,58,06:54,1.6
+M,21:02,Work Meeting,Medium,High,54,22:56,1.9
+M,00:20,Yoga,Medium,Medium,58,01:56,1.6
+F,10:56,Cooking,Medium,Medium,54,11:50,0.9
+F,14:26,Walking,Medium,Low,63,16:26,2.0
+F,07:55,Running,High,Low,63,09:01,1.1
+F,02:03,Cycling,High,Low,62,02:51,0.8
+M,20:52,Weight Training,High,Low,64,22:10,1.3
+F,02:59,Cooking,Medium,Medium,60,05:05,2.1
+F,22:58,Journaling,Low,High,55,01:40,2.7
+M,07:34,Weight Training,High,Low,65,08:58,1.4
+M,07:23,Journaling,Low,High,55,10:05,2.7
+F,12:06,Work Meeting,Medium,High,61,15:18,3.2
+F,18:46,Cycling,High,Low,61,19:28,0.7
+F,13:10,Journaling,Low,High,52,15:10,2.0
+F,21:40,Yoga,Medium,Medium,55,22:40,1.0
+M,10:45,Walking,Medium,Low,64,12:57,2.2
+F,08:08,Cycling,High,Low,66,09:44,1.6
+M,12:22,Cycling,High,Low,60,12:46,0.4
+F,08:18,Yoga,Medium,Medium,62,10:42,2.4
+M,19:56,Cycling,High,Low,61,20:38,0.7
+F,21:11,Meditation,Low,High,53,23:29,2.3
+F,22:40,Reading,Low,High,51,00:34,1.9
+F,16:11,Gaming,Low,Medium,54,17:35,1.4
+F,12:48,Gaming,Low,Medium,48,13:06,0.3
+F,16:12,Sleep Prep Routine,Low,Low,59,18:06,1.9
+M,06:20,Sleep Prep Routine,Low,Low,58,07:56,1.6
+M,08:08,Walking,Medium,Low,64,10:26,2.3
+M,06:54,Journaling,Low,High,49,08:24,1.5
+F,00:39,Cycling,High,Low,61,01:15,0.6
+M,11:47,Journaling,Low,High,55,14:29,2.7
+F,16:46,Cooking,Medium,Medium,60,18:46,2.0
+F,03:17,Cycling,High,Low,63,04:23,1.1
+M,11:57,Walking,Medium,Low,57,12:45,0.8
+F,09:01,Reading,Low,High,48,10:13,1.2
+F,08:56,Journaling,Low,High,58,12:08,3.2
+M,05:02,Gaming,Low,Medium,56,06:56,1.9
+F,02:42,Cycling,High,Low,68,04:42,2.0
+F,22:23,Weight Training,High,Low,67,00:11,1.8
+F,02:44,Yoga,Medium,Medium,57,04:08,1.4
+F,01:31,Gaming,Low,Medium,57,03:37,2.1
+F,07:10,Gaming,Low,Medium,63,10:28,3.3
+M,00:23,Walking,Medium,Low,59,01:35,1.2
+M,23:00,Yoga,Medium,Medium,56,00:12,1.2
+M,02:42,Journaling,Low,High,49,04:12,1.5
+M,04:07,Reading,Low,High,52,06:13,2.1
+M,03:48,Journaling,Low,High,51,05:42,1.9
+F,10:44,Gaming,Low,Medium,56,12:32,1.8
+F,09:50,Walking,Medium,Low,60,11:14,1.4
+M,22:05,Gaming,Low,Medium,57,00:11,2.1
+M,12:31,Yoga,Medium,Medium,51,12:43,0.2
+M,01:44,Gaming,Low,Medium,50,02:20,0.6
+M,12:50,Journaling,Low,High,49,14:14,1.4
+M,10:38,Gaming,Low,Medium,57,12:44,2.1
+M,03:50,Running,High,Low,62,04:44,0.9
+F,23:57,Journaling,Low,High,52,01:57,2.0
+M,04:35,Cooking,Medium,Medium,58,06:17,1.7
+F,21:20,Walking,Medium,Low,64,23:32,2.2
+M,08:45,Work Meeting,Medium,High,53,10:27,1.7
+F,05:54,Cycling,High,Low,59,06:12,0.3
+F,14:26,Cycling,High,Low,60,14:50,0.4
+F,13:26,Meditation,Low,High,55,16:08,2.7
+M,12:34,Gaming,Low,Medium,58,14:46,2.2
+F,16:32,Walking,Medium,Low,63,18:38,2.1
+M,22:15,Weight Training,High,Low,67,00:03,1.8
+F,08:23,Walking,Medium,Low,64,10:41,2.3
+M,04:00,Meditation,Low,High,50,05:42,1.7
+M,22:08,Work Meeting,Medium,High,52,23:32,1.4
+F,13:59,Walking,Medium,Low,63,16:05,2.1
+M,16:54,Walking,Medium,Low,62,18:42,1.8
+F,12:55,Work Meeting,Medium,High,49,13:49,0.9
+M,13:55,Sleep Prep Routine,Low,Low,56,15:07,1.2
+F,00:16,Cycling,High,Low,65,01:40,1.4
+F,21:30,Gaming,Low,Medium,62,00:36,3.1
+F,07:53,Gaming,Low,Medium,58,10:11,2.3
+M,19:52,Work Meeting,Medium,High,56,22:04,2.2
+M,22:07,Reading,Low,High,49,23:31,1.4
+M,01:10,Gaming,Low,Medium,61,03:58,2.8
+M,21:37,Meditation,Low,High,44,22:01,0.4
+M,11:56,Meditation,Low,High,56,14:44,2.8
+M,03:35,Meditation,Low,High,53,05:53,2.3
+M,16:57,Weight Training,High,Low,63,18:03,1.1
+F,20:20,Journaling,Low,High,49,21:44,1.4
+F,03:46,Gaming,Low,Medium,48,04:04,0.3
+M,08:34,Reading,Low,High,45,09:10,0.6
+F,06:40,Journaling,Low,High,56,09:34,2.9
+F,08:08,Journaling,Low,High,57,11:08,3.0
+F,22:44,Walking,Medium,Low,59,23:56,1.2
+M,21:53,Gaming,Low,Medium,57,23:53,2.0
+M,16:53,Weight Training,High,Low,62,17:47,0.9
+M,12:36,Sleep Prep Routine,Low,Low,62,15:00,2.4
+M,19:23,Cooking,Medium,Medium,57,20:53,1.5
+M,00:19,Gaming,Low,Medium,55,01:55,1.6
+M,11:26,Walking,Medium,Low,59,12:38,1.2
+M,04:05,Meditation,Low,High,55,06:41,2.6
+F,06:51,Work Meeting,Medium,High,58,09:33,2.7
+F,12:06,Cycling,High,Low,64,13:18,1.2
+M,22:24,Cycling,High,Low,62,23:12,0.8
+F,01:27,Journaling,Low,High,57,04:33,3.1
+F,07:08,Gaming,Low,Medium,63,10:26,3.3
+F,21:40,Cycling,High,Low,64,22:58,1.3
+M,09:58,Work Meeting,Medium,High,55,11:58,2.0
+M,14:30,Weight Training,High,Low,61,15:06,0.6
+F,23:53,Work Meeting,Medium,High,52,01:23,1.5
+F,16:49,Running,High,Low,62,17:37,0.8
+M,14:31,Reading,Low,High,51,16:19,1.8
+M,21:17,Cooking,Medium,Medium,55,22:23,1.1
+F,05:28,Work Meeting,Medium,High,53,07:04,1.6
+M,10:12,Meditation,Low,High,50,11:48,1.6
+F,03:34,Sleep Prep Routine,Low,Low,61,05:46,2.2
+F,11:10,Gaming,Low,Medium,54,12:40,1.5
+M,17:25,Work Meeting,Medium,High,58,20:01,2.6
+F,15:01,Cooking,Medium,Medium,59,16:55,1.9
+F,03:46,Walking,Medium,Low,57,04:40,0.9
+F,11:08,Yoga,Medium,Medium,55,12:14,1.1
+F,10:20,Yoga,Medium,Medium,56,11:32,1.2
+F,21:36,Cooking,Medium,Medium,51,21:54,0.3
+M,06:48,Meditation,Low,High,45,07:30,0.7
+F,16:17,Weight Training,High,Low,61,16:59,0.7
+F,00:16,Gaming,Low,Medium,53,01:34,1.3
+F,10:55,Sleep Prep Routine,Low,Low,58,12:37,1.7
+M,06:46,Cycling,High,Low,65,08:16,1.5
+M,07:40,Yoga,Medium,Medium,53,08:16,0.6
+F,03:57,Yoga,Medium,Medium,58,05:39,1.7
+M,07:35,Weight Training,High,Low,65,08:59,1.4
+M,16:22,Cooking,Medium,Medium,63,18:58,2.6
+F,21:05,Weight Training,High,Low,61,21:41,0.6
+M,18:21,Reading,Low,High,55,20:57,2.6
+F,22:57,Work Meeting,Medium,High,50,00:03,1.1
+F,13:56,Cooking,Medium,Medium,59,15:44,1.8
+F,20:07,Running,High,Low,62,21:01,0.9
+M,01:08,Gaming,Low,Medium,48,01:26,0.3
+M,15:51,Gaming,Low,Medium,62,18:57,3.1
+F,18:35,Journaling,Low,High,50,20:11,1.6
+F,06:58,Walking,Medium,Low,61,08:34,1.6
+M,08:28,Cooking,Medium,Medium,57,09:52,1.4
+M,16:48,Journaling,Low,High,53,19:00,2.2
+M,02:25,Gaming,Low,Medium,56,04:19,1.9
+M,18:42,Sleep Prep Routine,Low,Low,64,21:30,2.8
+F,00:48,Walking,Medium,Low,61,02:24,1.6
+M,07:12,Walking,Medium,Low,63,09:18,2.1
+F,01:55,Walking,Medium,Low,63,03:55,2.0
+M,22:02,Cycling,High,Low,60,22:32,0.5
+F,11:52,Sleep Prep Routine,Low,Low,56,13:10,1.3
+F,13:04,Weight Training,High,Low,64,14:16,1.2
+F,01:29,Cycling,High,Low,65,02:59,1.5
+M,14:22,Cycling,High,Low,63,15:22,1.0
+M,23:17,Weight Training,High,Low,63,00:17,1.0
+M,08:04,Work Meeting,Medium,High,47,08:28,0.4
+M,06:58,Walking,Medium,Low,68,10:04,3.1
+F,23:09,Weight Training,High,Low,62,00:03,0.9
+F,14:37,Sleep Prep Routine,Low,Low,61,16:55,2.3
+F,02:46,Running,High,Low,68,04:52,2.1
+F,09:08,Journaling,Low,High,46,10:02,0.9
+F,01:28,Work Meeting,Medium,High,52,02:52,1.4
+F,12:27,Meditation,Low,High,53,14:45,2.3
+F,18:00,Sleep Prep Routine,Low,Low,66,21:12,3.2
+F,05:47,Yoga,Medium,Medium,64,08:41,2.9
+F,19:58,Sleep Prep Routine,Low,Low,51,20:10,0.2
+F,18:55,Cycling,High,Low,65,20:19,1.4
+F,12:39,Reading,Low,High,51,14:33,1.9
+M,13:04,Work Meeting,Medium,High,46,13:16,0.2
+F,15:17,Reading,Low,High,52,17:23,2.1
+F,03:58,Running,High,Low,60,04:28,0.5
+F,22:55,Journaling,Low,High,53,01:07,2.2
+F,06:48,Journaling,Low,High,54,09:18,2.5
+F,05:57,Weight Training,High,Low,67,07:45,1.8
+M,17:33,Cycling,High,Low,66,19:09,1.6
+M,21:06,Meditation,Low,High,52,23:12,2.1
+F,17:56,Walking,Medium,Low,57,18:50,0.9
+F,06:02,Walking,Medium,Low,62,07:50,1.8
+F,03:11,Running,High,Low,64,04:23,1.2
+M,19:23,Weight Training,High,Low,60,19:47,0.4
+M,09:57,Walking,Medium,Low,63,11:57,2.0
+F,21:40,Gaming,Low,Medium,58,23:52,2.2
+F,02:29,Work Meeting,Medium,High,48,03:11,0.7
+F,12:31,Cooking,Medium,Medium,62,14:55,2.4
+M,21:53,Yoga,Medium,Medium,54,22:41,0.8
+F,08:41,Yoga,Medium,Medium,58,10:17,1.6
+F,18:53,Sleep Prep Routine,Low,Low,51,19:11,0.3
+M,18:02,Work Meeting,Medium,High,53,19:38,1.6
+M,18:12,Reading,Low,High,48,19:30,1.3
+F,16:52,Reading,Low,High,52,18:58,2.1
+M,06:12,Weight Training,High,Low,62,07:00,0.8
+M,20:00,Cooking,Medium,Medium,57,21:24,1.4
+M,15:24,Cycling,High,Low,67,17:12,1.8
+M,21:15,Journaling,Low,High,50,22:51,1.6
+F,18:18,Running,High,Low,61,18:54,0.6
+M,18:47,Yoga,Medium,Medium,58,20:23,1.6
+M,19:56,Gaming,Low,Medium,58,22:08,2.2
+F,19:28,Yoga,Medium,Medium,57,20:58,1.5
+F,07:58,Meditation,Low,High,50,09:34,1.6
+M,10:31,Sleep Prep Routine,Low,Low,63,13:07,2.6
+F,03:07,Work Meeting,Medium,High,47,03:37,0.5
+M,19:16,Meditation,Low,High,49,20:46,1.5
+M,05:28,Walking,Medium,Low,62,07:16,1.8
+F,03:41,Work Meeting,Medium,High,53,05:23,1.7
+M,12:10,Cycling,High,Low,60,12:40,0.5
+M,01:29,Reading,Low,High,55,04:11,2.7
+F,01:49,Cooking,Medium,Medium,57,03:19,1.5
+F,05:56,Cycling,High,Low,65,07:20,1.4
+F,12:31,Cooking,Medium,Medium,53,13:07,0.6
+M,21:09,Cycling,High,Low,65,22:39,1.5
+F,05:23,Cooking,Medium,Medium,53,05:59,0.6
+M,00:36,Walking,Medium,Low,62,02:24,1.8
+F,17:47,Yoga,Medium,Medium,58,19:23,1.6
+F,06:39,Cooking,Medium,Medium,59,08:27,1.8
+F,05:47,Journaling,Low,High,46,06:41,0.9
+F,02:51,Cycling,High,Low,62,03:39,0.8
+F,21:37,Reading,Low,High,50,23:19,1.7
+F,02:02,Cycling,High,Low,67,03:50,1.8
+M,18:42,Reading,Low,High,60,22:24,3.7
+F,22:23,Work Meeting,Medium,High,51,23:35,1.2
+F,04:50,Work Meeting,Medium,High,47,05:14,0.4
+F,05:24,Journaling,Low,High,52,07:24,2.0
+F,21:17,Running,High,Low,62,22:11,0.9
+F,21:09,Gaming,Low,Medium,57,23:15,2.1
+M,07:11,Work Meeting,Medium,High,51,08:23,1.2
+M,17:19,Work Meeting,Medium,High,48,18:01,0.7
+F,05:02,Gaming,Low,Medium,59,07:26,2.4
+M,16:37,Work Meeting,Medium,High,53,18:19,1.7
+F,10:21,Reading,Low,High,52,12:27,2.1
+M,19:51,Work Meeting,Medium,High,53,21:33,1.7
+F,14:55,Cooking,Medium,Medium,54,15:49,0.9
+M,02:50,Cooking,Medium,Medium,57,04:20,1.5
+M,13:19,Cooking,Medium,Medium,51,13:31,0.2
+M,09:29,Gaming,Low,Medium,57,11:35,2.1
+F,01:58,Running,High,Low,59,02:16,0.3
+F,07:10,Journaling,Low,High,50,08:46,1.6
+M,06:27,Walking,Medium,Low,58,07:27,1.0
+F,05:23,Yoga,Medium,Medium,57,06:53,1.5
+F,04:37,Meditation,Low,High,52,06:43,2.1
+M,00:54,Meditation,Low,High,50,02:30,1.6
+F,01:08,Sleep Prep Routine,Low,Low,61,03:20,2.2
+F,16:14,Meditation,Low,High,51,18:08,1.9
+F,12:15,Cycling,High,Low,66,13:51,1.6
+F,02:47,Journaling,Low,High,57,05:47,3.0
+F,07:12,Walking,Medium,Low,60,08:42,1.5
+F,21:03,Walking,Medium,Low,62,22:57,1.9
+M,02:44,Reading,Low,High,59,06:14,3.5
+F,22:07,Sleep Prep Routine,Low,Low,60,00:07,2.0
+F,04:51,Walking,Medium,Low,61,06:33,1.7
+F,06:21,Running,High,Low,64,07:33,1.2
+F,19:12,Sleep Prep Routine,Low,Low,55,20:18,1.1
+M,23:57,Cycling,High,Low,64,01:15,1.3
+F,22:01,Cooking,Medium,Medium,62,00:25,2.4
+F,17:28,Work Meeting,Medium,High,58,20:10,2.7
+F,15:54,Cooking,Medium,Medium,62,18:18,2.4
+F,11:30,Walking,Medium,Low,57,12:24,0.9
+M,08:53,Cycling,High,Low,59,09:05,0.2
+M,12:13,Work Meeting,Medium,High,54,14:07,1.9
+F,18:10,Work Meeting,Medium,High,52,19:40,1.5
+M,20:20,Cooking,Medium,Medium,57,21:44,1.4
+M,07:40,Cooking,Medium,Medium,51,07:58,0.3
+F,01:39,Journaling,Low,High,59,05:03,3.4
+F,05:27,Cooking,Medium,Medium,57,06:57,1.5
+F,12:51,Walking,Medium,Low,62,14:45,1.9
+M,18:57,Running,High,Low,61,19:39,0.7
+M,09:17,Gaming,Low,Medium,52,10:17,1.0
+F,08:46,Walking,Medium,Low,54,08:58,0.2
+M,23:53,Reading,Low,High,56,02:41,2.8
+M,02:23,Weight Training,High,Low,62,03:11,0.8
+F,14:33,Yoga,Medium,Medium,61,16:51,2.3
+F,15:54,Work Meeting,Medium,High,50,16:54,1.0
+M,20:24,Weight Training,High,Low,61,21:06,0.7
+M,19:37,Cycling,High,Low,62,20:31,0.9
+F,20:23,Gaming,Low,Medium,57,22:23,2.0
+M,14:22,Journaling,Low,High,55,16:58,2.6
+F,22:02,Reading,Low,High,54,00:26,2.4
+F,12:52,Cycling,High,Low,60,13:22,0.5
+M,00:39,Yoga,Medium,Medium,57,02:03,1.4
+M,12:58,Cooking,Medium,Medium,59,14:46,1.8
+F,08:38,Sleep Prep Routine,Low,Low,58,10:20,1.7
+F,19:24,Running,High,Low,60,19:54,0.5
+F,00:56,Gaming,Low,Medium,59,03:20,2.4
+M,05:34,Walking,Medium,Low,58,06:40,1.1
+F,12:16,Walking,Medium,Low,64,14:34,2.3
+M,13:46,Cooking,Medium,Medium,56,14:58,1.2
+M,20:55,Running,High,Low,63,22:01,1.1
+F,04:25,Reading,Low,High,52,06:31,2.1
+M,16:56,Work Meeting,Medium,High,52,18:26,1.5
+M,18:42,Walking,Medium,Low,61,20:18,1.6
+M,02:31,Work Meeting,Medium,High,47,03:01,0.5
+M,05:57,Reading,Low,High,48,07:09,1.2
+F,07:58,Meditation,Low,High,58,11:16,3.3
+M,02:53,Gaming,Low,Medium,48,03:05,0.2
+M,15:34,Meditation,Low,High,44,16:04,0.5
+F,12:22,Meditation,Low,High,53,14:34,2.2
+M,03:28,Cooking,Medium,Medium,60,05:28,2.0
+M,08:36,Meditation,Low,High,54,11:00,2.4
+M,09:10,Yoga,Medium,Medium,59,10:58,1.8
+M,18:04,Work Meeting,Medium,High,53,19:40,1.6
+F,21:47,Running,High,Low,59,22:05,0.3
+M,17:48,Gaming,Low,Medium,52,18:54,1.1
+M,22:29,Meditation,Low,High,49,23:53,1.4
+F,09:13,Sleep Prep Routine,Low,Low,63,11:49,2.6
+M,13:34,Journaling,Low,High,50,15:10,1.6
+M,01:11,Cycling,High,Low,64,02:23,1.2
+F,14:47,Yoga,Medium,Medium,61,16:59,2.2
+M,14:07,Cycling,High,Low,62,15:01,0.9
+M,11:12,Work Meeting,Medium,High,52,12:42,1.5
+M,20:07,Journaling,Low,High,53,22:19,2.2
+F,12:51,Cycling,High,Low,59,13:03,0.2
+M,13:51,Running,High,Low,64,15:09,1.3
+F,19:28,Weight Training,High,Low,59,19:46,0.3
+F,15:17,Cooking,Medium,Medium,53,15:59,0.7
+M,03:21,Cycling,High,Low,61,04:03,0.7
+F,14:56,Walking,Medium,Low,61,16:32,1.6
+M,21:57,Yoga,Medium,Medium,56,23:15,1.3
+M,09:29,Walking,Medium,Low,59,10:41,1.2
+M,20:31,Gaming,Low,Medium,49,21:01,0.5
+F,16:31,Weight Training,High,Low,63,17:31,1.0
+F,00:10,Cycling,High,Low,64,01:22,1.2
+F,01:41,Walking,Medium,Low,60,03:05,1.4
+M,16:53,Cooking,Medium,Medium,62,19:23,2.5
+M,05:27,Weight Training,High,Low,63,06:27,1.0
+F,12:55,Reading,Low,High,56,15:43,2.8
+F,10:26,Yoga,Medium,Medium,60,12:32,2.1
+F,07:08,Weight Training,High,Low,62,07:56,0.8
+F,19:38,Journaling,Low,High,48,20:50,1.2
+M,01:30,Yoga,Medium,Medium,62,04:00,2.5
+F,19:38,Yoga,Medium,Medium,56,20:56,1.3
+F,13:33,Yoga,Medium,Medium,58,15:15,1.7
+M,03:21,Cooking,Medium,Medium,58,05:03,1.7
+F,00:44,Walking,Medium,Low,60,02:08,1.4
+M,03:20,Walking,Medium,Low,63,05:20,2.0
+M,13:06,Weight Training,High,Low,64,14:24,1.3
+M,11:33,Journaling,Low,High,48,12:51,1.3
+F,13:14,Meditation,Low,High,57,16:14,3.0
+M,21:01,Work Meeting,Medium,High,56,23:13,2.2
+F,19:43,Cooking,Medium,Medium,58,21:25,1.7
+M,02:19,Weight Training,High,Low,63,03:25,1.1
+F,16:01,Cooking,Medium,Medium,60,18:01,2.0
+F,02:59,Journaling,Low,High,57,06:05,3.1
+M,08:38,Gaming,Low,Medium,62,11:38,3.0
+F,12:12,Yoga,Medium,Medium,55,13:18,1.1
+M,19:07,Work Meeting,Medium,High,51,20:19,1.2
+M,18:47,Meditation,Low,High,47,19:47,1.0
+F,09:26,Reading,Low,High,47,10:32,1.1
+M,19:37,Yoga,Medium,Medium,59,21:25,1.8
+F,19:53,Walking,Medium,Low,62,21:41,1.8
+F,04:45,Work Meeting,Medium,High,53,06:21,1.6
+M,06:45,Weight Training,High,Low,62,07:33,0.8
+M,17:27,Work Meeting,Medium,High,57,19:51,2.4
+F,00:35,Running,High,Low,63,01:35,1.0
+M,18:37,Gaming,Low,Medium,63,21:49,3.2
+F,05:22,Yoga,Medium,Medium,55,06:28,1.1
+F,09:09,Running,High,Low,62,10:03,0.9
+M,01:03,Meditation,Low,High,51,02:57,1.9
+F,17:08,Walking,Medium,Low,58,18:14,1.1
+M,13:56,Journaling,Low,High,51,15:50,1.9
+M,03:36,Walking,Medium,Low,63,05:42,2.1
+M,03:17,Weight Training,High,Low,63,04:23,1.1
+F,22:25,Cycling,High,Low,63,23:25,1.0
+F,04:17,Meditation,Low,High,54,06:47,2.5
+F,04:11,Gaming,Low,Medium,55,05:47,1.6
+F,19:38,Work Meeting,Medium,High,52,21:08,1.5
+M,11:37,Running,High,Low,64,12:55,1.3
+M,16:33,Meditation,Low,High,55,19:09,2.6
+M,22:56,Cooking,Medium,Medium,57,00:26,1.5
+M,16:08,Gaming,Low,Medium,59,18:32,2.4
+F,06:57,Cooking,Medium,Medium,55,07:57,1.0
+F,14:34,Cycling,High,Low,66,16:10,1.6
+F,07:07,Weight Training,High,Low,62,08:01,0.9
+F,12:07,Reading,Low,High,54,14:31,2.4
+M,12:52,Yoga,Medium,Medium,60,14:52,2.0
+F,17:11,Walking,Medium,Low,64,19:29,2.3
+F,17:12,Cooking,Medium,Medium,57,18:36,1.4
+F,18:55,Sleep Prep Routine,Low,Low,58,20:37,1.7
+F,00:03,Running,High,Low,65,01:27,1.4
+M,12:12,Weight Training,High,Low,61,12:54,0.7
+M,14:11,Running,High,Low,62,14:59,0.8
+M,02:38,Gaming,Low,Medium,56,04:26,1.8
+M,08:00,Meditation,Low,High,53,10:12,2.2
+F,17:11,Gaming,Low,Medium,61,20:05,2.9
+F,19:48,Walking,Medium,Low,68,22:48,3.0
+M,21:21,Cycling,High,Low,63,22:21,1.0
+F,11:54,Meditation,Low,High,54,14:24,2.5
+M,22:31,Weight Training,High,Low,65,23:55,1.4
+M,06:22,Sleep Prep Routine,Low,Low,57,07:46,1.4
+F,15:19,Walking,Medium,Low,66,17:55,2.6
+F,20:25,Journaling,Low,High,44,20:55,0.5
+M,21:52,Weight Training,High,Low,62,22:40,0.8
+M,08:05,Cycling,High,Low,62,08:53,0.8
+M,01:39,Yoga,Medium,Medium,57,03:03,1.4
+F,23:44,Work Meeting,Medium,High,46,00:02,0.3
+F,10:33,Journaling,Low,High,53,12:45,2.2
+F,15:53,Gaming,Low,Medium,54,17:17,1.4
+M,11:39,Weight Training,High,Low,64,12:51,1.2
+M,05:31,Yoga,Medium,Medium,59,07:25,1.9
+M,19:17,Work Meeting,Medium,High,50,20:23,1.1
+F,08:25,Journaling,Low,High,58,11:37,3.2
+F,12:03,Walking,Medium,Low,60,13:33,1.5
+F,02:36,Walking,Medium,Low,59,03:54,1.3
+M,19:06,Weight Training,High,Low,62,19:54,0.8
+F,13:25,Sleep Prep Routine,Low,Low,56,14:37,1.2
+M,01:24,Weight Training,High,Low,61,02:06,0.7
+F,02:17,Journaling,Low,High,50,03:53,1.6
+F,18:46,Reading,Low,High,55,21:22,2.6
+F,13:48,Meditation,Low,High,52,15:48,2.0
+M,18:07,Sleep Prep Routine,Low,Low,69,21:55,3.8
+M,12:12,Sleep Prep Routine,Low,Low,61,14:24,2.2
+M,17:22,Yoga,Medium,Medium,59,19:10,1.8
+F,10:25,Journaling,Low,High,52,12:25,2.0
+M,15:20,Reading,Low,High,54,17:50,2.5
+M,06:08,Meditation,Low,High,52,08:08,2.0
+F,02:58,Reading,Low,High,51,04:52,1.9
+M,22:40,Work Meeting,Medium,High,57,01:10,2.5
+M,04:40,Cooking,Medium,Medium,51,04:52,0.2
+M,15:30,Meditation,Low,High,51,17:24,1.9
+F,21:13,Cycling,High,Low,61,21:55,0.7
+F,22:07,Cooking,Medium,Medium,61,00:25,2.3
+F,19:48,Cooking,Medium,Medium,53,20:24,0.6
+F,06:28,Meditation,Low,High,46,07:22,0.9
+F,04:13,Walking,Medium,Low,62,06:01,1.8
+F,21:34,Cycling,High,Low,62,22:28,0.9
+F,05:16,Gaming,Low,Medium,57,07:16,2.0
+M,08:36,Yoga,Medium,Medium,55,09:36,1.0
+M,05:58,Gaming,Low,Medium,57,08:04,2.1
+F,23:03,Cycling,High,Low,59,23:15,0.2
+M,09:40,Running,High,Low,63,10:40,1.0
+F,17:41,Gaming,Low,Medium,55,19:23,1.7
+M,16:36,Cooking,Medium,Medium,59,18:30,1.9
+M,21:50,Work Meeting,Medium,High,48,22:32,0.7
+F,05:21,Cycling,High,Low,63,06:21,1.0
+M,20:25,Cycling,High,Low,62,21:19,0.9
+M,23:26,Yoga,Medium,Medium,56,00:44,1.3
+F,02:29,Sleep Prep Routine,Low,Low,63,05:11,2.7
+M,09:33,Running,High,Low,60,10:03,0.5
+F,14:45,Walking,Medium,Low,60,16:09,1.4
+F,01:34,Journaling,Low,High,50,03:16,1.7
+M,21:39,Sleep Prep Routine,Low,Low,62,00:03,2.4
+M,16:56,Running,High,Low,65,18:26,1.5
+M,18:01,Journaling,Low,High,57,21:01,3.0
+F,08:19,Cycling,High,Low,61,08:55,0.6
+M,05:44,Yoga,Medium,Medium,56,06:56,1.2
+F,04:01,Gaming,Low,Medium,57,06:01,2.0
+F,13:28,Weight Training,High,Low,64,14:46,1.3
+F,08:40,Cooking,Medium,Medium,58,10:16,1.6
+M,13:51,Cooking,Medium,Medium,59,15:39,1.8
+F,03:20,Walking,Medium,Low,58,04:26,1.1
+F,09:50,Walking,Medium,Low,67,12:38,2.8
+F,16:45,Gaming,Low,Medium,54,18:15,1.5
+F,12:14,Journaling,Low,High,51,14:08,1.9
+M,10:09,Yoga,Medium,Medium,61,12:21,2.2
+M,00:16,Work Meeting,Medium,High,50,01:22,1.1
+M,23:08,Yoga,Medium,Medium,59,00:56,1.8
+F,10:20,Cooking,Medium,Medium,61,12:38,2.3
+F,17:41,Meditation,Low,High,51,19:29,1.8
+M,17:58,Gaming,Low,Medium,53,19:16,1.3
+F,04:54,Cooking,Medium,Medium,56,06:12,1.3
+F,16:17,Meditation,Low,High,53,18:35,2.3
+M,11:32,Cooking,Medium,Medium,57,12:56,1.4
+F,02:07,Sleep Prep Routine,Low,Low,62,04:31,2.4
+F,00:48,Running,High,Low,64,02:00,1.2
+F,19:15,Gaming,Low,Medium,56,21:09,1.9
+M,00:25,Reading,Low,High,51,02:13,1.8
+F,10:01,Cycling,High,Low,63,11:01,1.0
+M,12:13,Reading,Low,High,50,13:55,1.7
+M,03:39,Meditation,Low,High,54,06:09,2.5
+M,19:19,Gaming,Low,Medium,61,22:07,2.8
+M,03:13,Sleep Prep Routine,Low,Low,58,04:55,1.7
+M,03:21,Cooking,Medium,Medium,58,04:57,1.6
+F,18:05,Work Meeting,Medium,High,50,19:11,1.1
+M,04:10,Work Meeting,Medium,High,52,05:34,1.4
+F,08:14,Meditation,Low,High,58,11:26,3.2
+M,10:37,Meditation,Low,High,54,13:01,2.4
+M,13:09,Journaling,Low,High,50,14:51,1.7
+F,18:00,Running,High,Low,64,19:18,1.3
+F,21:56,Yoga,Medium,Medium,58,23:38,1.7
+M,18:10,Cycling,High,Low,63,19:16,1.1
+F,10:59,Journaling,Low,High,51,12:47,1.8
+F,09:11,Reading,Low,High,55,11:53,2.7
+M,11:49,Gaming,Low,Medium,60,14:31,2.7
+F,11:21,Reading,Low,High,51,13:15,1.9
+F,17:37,Cooking,Medium,Medium,58,19:13,1.6
+F,20:56,Cycling,High,Low,62,21:50,0.9
+F,19:31,Weight Training,High,Low,64,20:43,1.2
+F,10:22,Meditation,Low,High,51,12:16,1.9
+M,00:36,Work Meeting,Medium,High,54,02:24,1.8
+M,13:23,Gaming,Low,Medium,53,14:35,1.2
+M,16:10,Cooking,Medium,Medium,60,18:16,2.1
+F,03:41,Yoga,Medium,Medium,62,06:11,2.5
+M,21:15,Journaling,Low,High,51,23:03,1.8
+M,15:04,Gaming,Low,Medium,53,16:22,1.3
+M,11:01,Meditation,Low,High,52,13:01,2.0
+F,23:11,Cycling,High,Low,65,00:41,1.5
+M,04:12,Weight Training,High,Low,64,05:30,1.3
+M,17:14,Reading,Low,High,48,18:26,1.2
+F,20:05,Yoga,Medium,Medium,57,21:35,1.5
+M,20:47,Weight Training,High,Low,63,21:47,1.0
+M,15:29,Weight Training,High,Low,62,16:23,0.9
+F,11:11,Reading,Low,High,51,12:59,1.8
+F,04:53,Walking,Medium,Low,62,06:47,1.9
+F,12:47,Reading,Low,High,52,14:47,2.0
+M,04:50,Yoga,Medium,Medium,56,06:02,1.2
+M,18:53,Journaling,Low,High,55,21:35,2.7
+F,02:08,Meditation,Low,High,55,04:44,2.6
+M,03:28,Running,High,Low,62,04:22,0.9
+F,11:51,Cycling,High,Low,61,12:27,0.6
+M,15:58,Journaling,Low,High,59,19:28,3.5
+F,21:03,Cycling,High,Low,62,21:51,0.8
+M,23:39,Walking,Medium,Low,60,01:09,1.5
+M,18:42,Gaming,Low,Medium,61,21:36,2.9
+M,14:12,Meditation,Low,High,43,14:24,0.2
+F,03:02,Walking,Medium,Low,63,05:02,2.0
+F,16:11,Reading,Low,High,51,18:05,1.9
+F,22:53,Walking,Medium,Low,61,00:35,1.7
+M,14:16,Reading,Low,High,48,15:28,1.2
+F,03:35,Cooking,Medium,Medium,55,04:35,1.0
+F,06:04,Walking,Medium,Low,58,07:04,1.0
+M,20:07,Cycling,High,Low,64,21:25,1.3
+M,10:18,Cooking,Medium,Medium,54,11:12,0.9
+M,11:09,Journaling,Low,High,54,13:33,2.4
+M,15:55,Gaming,Low,Medium,53,17:13,1.3
+F,14:05,Running,High,Low,66,15:41,1.6
+F,07:02,Reading,Low,High,58,10:14,3.2
+F,05:50,Meditation,Low,High,55,08:32,2.7
+M,18:18,Sleep Prep Routine,Low,Low,62,20:48,2.5
+F,08:16,Walking,Medium,Low,60,09:46,1.5
+M,04:38,Weight Training,High,Low,63,05:38,1.0
+F,04:17,Running,High,Low,60,04:41,0.4
+F,18:44,Yoga,Medium,Medium,57,20:08,1.4
+F,14:58,Journaling,Low,High,53,17:10,2.2
+M,17:58,Yoga,Medium,Medium,56,19:16,1.3
+M,01:06,Yoga,Medium,Medium,54,02:00,0.9
+M,08:45,Journaling,Low,High,59,12:09,3.4
+M,03:38,Work Meeting,Medium,High,50,04:44,1.1
+F,21:30,Meditation,Low,High,44,22:00,0.5
+M,11:41,Yoga,Medium,Medium,53,12:17,0.6
+F,11:57,Cooking,Medium,Medium,57,13:27,1.5
+M,01:05,Cooking,Medium,Medium,55,02:05,1.0
+F,14:13,Journaling,Low,High,53,16:25,2.2
+F,21:09,Cooking,Medium,Medium,56,22:27,1.3
+M,09:38,Meditation,Low,High,56,12:26,2.8
+M,08:26,Journaling,Low,High,44,08:50,0.4
+F,04:39,Running,High,Low,59,04:51,0.2
+F,12:03,Reading,Low,High,52,14:09,2.1
+M,01:56,Reading,Low,High,52,04:02,2.1
+M,21:46,Yoga,Medium,Medium,62,00:16,2.5
+F,21:15,Sleep Prep Routine,Low,Low,58,22:51,1.6
+F,09:41,Sleep Prep Routine,Low,Low,59,11:29,1.8
+F,12:01,Gaming,Low,Medium,61,14:49,2.8
+M,06:16,Cooking,Medium,Medium,55,07:16,1.0
+M,05:01,Gaming,Low,Medium,55,06:37,1.6
+F,07:36,Running,High,Low,63,08:36,1.0
+F,17:37,Gaming,Low,Medium,53,18:49,1.2
+M,11:17,Yoga,Medium,Medium,61,13:29,2.2
+F,01:29,Weight Training,High,Low,62,02:23,0.9
+F,06:44,Weight Training,High,Low,62,07:32,0.8
+F,06:41,Meditation,Low,High,52,08:47,2.1
+F,15:30,Journaling,Low,High,51,17:24,1.9
+F,06:03,Yoga,Medium,Medium,58,07:45,1.7
+F,05:57,Walking,Medium,Low,58,07:03,1.1
+F,02:34,Walking,Medium,Low,62,04:22,1.8
+F,17:43,Work Meeting,Medium,High,55,19:43,2.0
+M,05:30,Sleep Prep Routine,Low,Low,57,07:00,1.5
+F,05:47,Yoga,Medium,Medium,51,05:59,0.2
+M,12:25,Walking,Medium,Low,62,14:13,1.8
+F,15:00,Cooking,Medium,Medium,59,16:54,1.9
+F,05:45,Gaming,Low,Medium,63,08:57,3.2
+F,05:20,Work Meeting,Medium,High,49,06:14,0.9
+F,17:56,Meditation,Low,High,57,20:56,3.0
+F,21:15,Yoga,Medium,Medium,58,22:51,1.6
+F,08:39,Running,High,Low,63,09:39,1.0
+F,20:32,Work Meeting,Medium,High,52,22:02,1.5
+F,07:22,Gaming,Low,Medium,54,08:52,1.5
+M,13:01,Walking,Medium,Low,62,14:49,1.8
+F,19:24,Yoga,Medium,Medium,62,21:48,2.4
+M,22:01,Running,High,Low,64,23:13,1.2
+M,00:52,Work Meeting,Medium,High,50,01:52,1.0
+F,10:23,Running,High,Low,62,11:11,0.8
+M,03:15,Walking,Medium,Low,58,04:15,1.0
+M,14:56,Cooking,Medium,Medium,56,16:14,1.3
+F,04:34,Yoga,Medium,Medium,57,05:58,1.4
+F,15:14,Work Meeting,Medium,High,47,15:38,0.4
+M,20:35,Work Meeting,Medium,High,49,21:23,0.8
+M,21:35,Cooking,Medium,Medium,57,23:05,1.5
+F,20:35,Yoga,Medium,Medium,63,23:17,2.7
+F,20:35,Cycling,High,Low,64,21:53,1.3
+M,18:08,Work Meeting,Medium,High,50,19:08,1.0
+M,06:57,Sleep Prep Routine,Low,Low,60,09:03,2.1
+F,04:17,Weight Training,High,Low,62,05:11,0.9
+F,02:04,Cooking,Medium,Medium,59,03:52,1.8
+F,08:56,Reading,Low,High,56,11:44,2.8
+M,03:17,Running,High,Low,62,04:05,0.8
+M,19:57,Cycling,High,Low,64,21:09,1.2
+F,07:43,Sleep Prep Routine,Low,Low,60,09:43,2.0
+M,02:29,Gaming,Low,Medium,53,03:47,1.3
+F,08:25,Journaling,Low,High,58,11:43,3.3
+F,06:43,Reading,Low,High,51,08:31,1.8
+F,12:45,Journaling,Low,High,52,14:51,2.1
+F,01:36,Reading,Low,High,47,02:36,1.0
+M,02:25,Meditation,Low,High,45,03:07,0.7
+M,16:41,Cycling,High,Low,63,17:47,1.1
+M,17:20,Journaling,Low,High,48,18:38,1.3
+F,17:42,Walking,Medium,Low,63,19:48,2.1
+F,08:50,Cooking,Medium,Medium,56,10:02,1.2
+F,18:49,Journaling,Low,High,53,21:01,2.2
+M,18:32,Sleep Prep Routine,Low,Low,56,19:44,1.2
+F,04:41,Gaming,Low,Medium,51,05:29,0.8
+M,12:27,Journaling,Low,High,47,13:27,1.0
+M,15:12,Yoga,Medium,Medium,57,16:36,1.4
+M,16:05,Walking,Medium,Low,66,18:47,2.7
+M,07:27,Meditation,Low,High,52,09:33,2.1
+M,21:53,Cycling,High,Low,66,23:35,1.7
+M,22:47,Yoga,Medium,Medium,60,00:47,2.0
+F,20:54,Cycling,High,Low,62,21:42,0.8
+M,18:57,Work Meeting,Medium,High,47,19:27,0.5
+M,16:18,Walking,Medium,Low,56,17:00,0.7
+F,04:00,Weight Training,High,Low,63,05:06,1.1
+F,15:23,Sleep Prep Routine,Low,Low,57,16:53,1.5
+F,02:47,Weight Training,High,Low,60,03:11,0.4
+M,22:01,Meditation,Low,High,51,23:49,1.8
+F,13:24,Cooking,Medium,Medium,58,15:06,1.7
+M,00:20,Cycling,High,Low,63,01:20,1.0
+F,12:16,Cooking,Medium,Medium,59,14:10,1.9
+F,08:20,Meditation,Low,High,60,11:56,3.6
+M,04:50,Meditation,Low,High,56,07:44,2.9
+F,04:51,Sleep Prep Routine,Low,Low,57,06:15,1.4
+M,17:24,Walking,Medium,Low,60,18:54,1.5
+M,00:00,Gaming,Low,Medium,53,01:18,1.3
+M,18:34,Meditation,Low,High,48,19:52,1.3
+F,14:53,Journaling,Low,High,50,16:35,1.7
+M,17:19,Yoga,Medium,Medium,57,18:49,1.5
+F,06:24,Walking,Medium,Low,58,07:30,1.1
+F,17:12,Reading,Low,High,47,18:12,1.0
+F,09:23,Meditation,Low,High,50,10:59,1.6
+F,22:15,Work Meeting,Medium,High,52,23:39,1.4
+M,14:48,Sleep Prep Routine,Low,Low,58,16:30,1.7
+M,18:52,Work Meeting,Medium,High,50,19:58,1.1
+M,06:39,Meditation,Low,High,61,10:27,3.8
+F,05:34,Work Meeting,Medium,High,58,08:16,2.7
+M,23:20,Running,High,Low,61,00:02,0.7
+M,16:15,Running,High,Low,64,17:27,1.2
+F,02:48,Cooking,Medium,Medium,59,04:42,1.9
+M,05:23,Work Meeting,Medium,High,49,06:17,0.9
+F,05:02,Work Meeting,Medium,High,52,06:32,1.5
+M,12:33,Cycling,High,Low,63,13:33,1.0
+F,06:45,Cooking,Medium,Medium,59,08:39,1.9
+F,16:13,Cycling,High,Low,62,17:01,0.8
+M,19:17,Cooking,Medium,Medium,56,20:35,1.3
+F,02:42,Gaming,Low,Medium,53,04:00,1.3
+F,10:36,Walking,Medium,Low,58,11:42,1.1
+M,19:14,Meditation,Low,High,48,20:32,1.3
+F,01:58,Weight Training,High,Low,62,02:52,0.9
+F,13:53,Cycling,High,Low,62,14:47,0.9
+M,23:27,Yoga,Medium,Medium,62,01:51,2.4
+M,19:43,Yoga,Medium,Medium,58,21:19,1.6
+F,17:32,Journaling,Low,High,47,18:38,1.1
+F,05:21,Weight Training,High,Low,63,06:21,1.0
+M,06:29,Yoga,Medium,Medium,58,08:11,1.7
+M,17:23,Yoga,Medium,Medium,61,19:41,2.3
+M,00:17,Cycling,High,Low,61,00:59,0.7
+M,22:20,Gaming,Low,Medium,52,23:26,1.1
+F,17:27,Reading,Low,High,49,18:57,1.5
+M,03:04,Walking,Medium,Low,60,04:34,1.5
+M,04:33,Gaming,Low,Medium,57,06:33,2.0
+F,13:52,Work Meeting,Medium,High,56,16:04,2.2
+F,02:43,Reading,Low,High,55,05:19,2.6
+M,10:39,Yoga,Medium,Medium,60,12:45,2.1
+F,15:44,Reading,Low,High,50,17:26,1.7
+M,22:14,Cycling,High,Low,66,23:56,1.7
+F,14:13,Cycling,High,Low,62,15:07,0.9
+F,08:17,Cycling,High,Low,61,08:53,0.6
+M,01:08,Walking,Medium,Low,67,04:02,2.9
+F,00:46,Sleep Prep Routine,Low,Low,62,03:16,2.5
